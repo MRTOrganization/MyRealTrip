@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07D6D1C4210EF02500D464D7 /* LodgingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */; };
 		303F274C20F758D500C27555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F274B20F758D500C27555 /* AppDelegate.swift */; };
 		303F274E20F758D500C27555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F274D20F758D500C27555 /* ViewController.swift */; };
 		303F275120F758D500C27555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303F274F20F758D500C27555 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LodgingView.storyboard; sourceTree = "<group>"; };
 		303F274820F758D500C27555 /* MyRealTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRealTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303F274B20F758D500C27555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		303F274D20F758D500C27555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				303F274B20F758D500C27555 /* AppDelegate.swift */,
 				303F274D20F758D500C27555 /* ViewController.swift */,
 				303F274F20F758D500C27555 /* Main.storyboard */,
+				07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */,
 				303F275220F758D500C27555 /* Assets.xcassets */,
 				303F275420F758D500C27555 /* LaunchScreen.storyboard */,
 				303F275720F758D500C27555 /* Info.plist */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D6D1C4210EF02500D464D7 /* LodgingView.storyboard in Resources */,
 				303F275620F758D500C27555 /* LaunchScreen.storyboard in Resources */,
 				303F275320F758D500C27555 /* Assets.xcassets in Resources */,
 				303F275120F758D500C27555 /* Main.storyboard in Resources */,
