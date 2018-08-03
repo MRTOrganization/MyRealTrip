@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YuG-Jv-OEK">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="GGu-7d-XkK">
             <objects>
-                <viewController id="YuG-Jv-OEK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="YuG-Jv-OEK" customClass="LoginViewController" customModule="MyRealTrip" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jtF-ZW-Vox">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,11 +28,6 @@
                                 <rect key="frame" x="0.0" y="106" width="375" height="323"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9L-zs-Of9">
-                                        <rect key="frame" x="0.0" y="33" width="375" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="FaceBook"/>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Agl-kh-DPW">
                                         <rect key="frame" x="0.0" y="79" width="375" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -58,41 +53,12 @@
                                         <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p7M-db-ue6">
-                                <rect key="frame" x="0.0" y="473" width="375" height="171"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eem-6o-T0s">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="QfT-7C-lD7"/>
-                                        </constraints>
-                                        <state key="normal" title="고객센터"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9L-zs-Of9" customClass="FBSDKLoginButton">
+                                        <rect key="frame" x="20" y="27" width="334" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="FaceBook"/>
                                         <connections>
-                                            <segue destination="I4S-i9-tzW" kind="presentation" id="oWp-ar-DeQ"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0o-0M-rkR">
-                                        <rect key="frame" x="0.0" y="114" width="375" height="49"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="Tlx-Yk-bF1"/>
-                                        </constraints>
-                                        <state key="normal" title="이용약관"/>
-                                        <connections>
-                                            <segue destination="fce-bt-EQ4" kind="presentation" id="aVX-wz-fGG"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftu-br-2gH">
-                                        <rect key="frame" x="0.0" y="57" width="375" height="49"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="moH-0j-y5H"/>
-                                        </constraints>
-                                        <state key="normal" title="자주묻는질문"/>
-                                        <connections>
-                                            <segue destination="KWa-8g-rNq" kind="presentation" id="EXI-gx-k2K"/>
+                                            <action selector="loginTestButton:" destination="YuG-Jv-OEK" eventType="touchUpInside" id="3m2-Az-nTk"/>
                                         </connections>
                                     </button>
                                 </subviews>

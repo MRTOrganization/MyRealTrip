@@ -8,15 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		079816F821116A8000D8F184 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079816F721116A8000D8F184 /* LoginView.storyboard */; };
+		07D8EF4E211419B5000C2FDE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D8EF4C211419B5000C2FDE /* FBSDKCoreKit.framework */; };
+		07D8EF4F211419B5000C2FDE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D8EF4D211419B5000C2FDE /* FBSDKLoginKit.framework */; };
+		07D8EF5121141FA2000C2FDE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8EF5021141FA2000C2FDE /* LoginViewController.swift */; };
 		303F274C20F758D500C27555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F274B20F758D500C27555 /* AppDelegate.swift */; };
 		303F274E20F758D500C27555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F274D20F758D500C27555 /* ViewController.swift */; };
 		303F275120F758D500C27555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303F274F20F758D500C27555 /* Main.storyboard */; };
 		303F275320F758D500C27555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303F275220F758D500C27555 /* Assets.xcassets */; };
 		303F275620F758D500C27555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303F275420F758D500C27555 /* LaunchScreen.storyboard */; };
+		9F5355C16DF3FC9DBD928308 /* Pods_MyRealTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B414E05EDA47510F2CDC69 /* Pods_MyRealTrip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02178ECA1171345B06DA24E2 /* Pods-MyRealTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.debug.xcconfig"; sourceTree = "<group>"; };
 		079816F721116A8000D8F184 /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
+		07D8EF4C211419B5000C2FDE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		07D8EF4D211419B5000C2FDE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		07D8EF5021141FA2000C2FDE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		303F274820F758D500C27555 /* MyRealTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRealTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303F274B20F758D500C27555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		303F274D20F758D500C27555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		303F275220F758D500C27555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303F275520F758D500C27555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		303F275720F758D500C27555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7648B08375A77C7594576588 /* Pods-MyRealTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.release.xcconfig"; sourceTree = "<group>"; };
+		C4B414E05EDA47510F2CDC69 /* Pods_MyRealTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRealTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5355C16DF3FC9DBD928308 /* Pods_MyRealTrip.framework in Frameworks */,
+				07D8EF4E211419B5000C2FDE /* FBSDKCoreKit.framework in Frameworks */,
+				07D8EF4F211419B5000C2FDE /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				303F274A20F758D500C27555 /* MyRealTrip */,
 				303F274920F758D500C27555 /* Products */,
+				D5E88E970FD01F9E78DFB920 /* Pods */,
+				55D0D27BE0F8BAE59874E28C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +73,7 @@
 			children = (
 				303F274B20F758D500C27555 /* AppDelegate.swift */,
 				303F274D20F758D500C27555 /* ViewController.swift */,
+				07D8EF5021141FA2000C2FDE /* LoginViewController.swift */,
 				303F274F20F758D500C27555 /* Main.storyboard */,
 				079816F721116A8000D8F184 /* LoginView.storyboard */,
 				303F275220F758D500C27555 /* Assets.xcassets */,
@@ -67,6 +83,25 @@
 			path = MyRealTrip;
 			sourceTree = "<group>";
 		};
+		55D0D27BE0F8BAE59874E28C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07D8EF4C211419B5000C2FDE /* FBSDKCoreKit.framework */,
+				07D8EF4D211419B5000C2FDE /* FBSDKLoginKit.framework */,
+				C4B414E05EDA47510F2CDC69 /* Pods_MyRealTrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5E88E970FD01F9E78DFB920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02178ECA1171345B06DA24E2 /* Pods-MyRealTrip.debug.xcconfig */,
+				7648B08375A77C7594576588 /* Pods-MyRealTrip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 303F275A20F758D500C27555 /* Build configuration list for PBXNativeTarget "MyRealTrip" */;
 			buildPhases = (
+				4527F51037855BFBAD3EA46D /* [CP] Check Pods Manifest.lock */,
 				303F274420F758D500C27555 /* Sources */,
 				303F274520F758D500C27555 /* Frameworks */,
 				303F274620F758D500C27555 /* Resources */,
+				BDBD0BE86B297E1B26519554 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,11 +171,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4527F51037855BFBAD3EA46D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyRealTrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDBD0BE86B297E1B26519554 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		303F274420F758D500C27555 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D8EF5121141FA2000C2FDE /* LoginViewController.swift in Sources */,
 				303F274E20F758D500C27555 /* ViewController.swift in Sources */,
 				303F274C20F758D500C27555 /* AppDelegate.swift in Sources */,
 			);
@@ -282,6 +363,7 @@
 		};
 		303F275B20F758D500C27555 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02178ECA1171345B06DA24E2 /* Pods-MyRealTrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -301,6 +383,7 @@
 		};
 		303F275C20F758D500C27555 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7648B08375A77C7594576588 /* Pods-MyRealTrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
