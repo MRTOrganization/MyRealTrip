@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0700F74721218576004ADF1D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0700F74621218576004ADF1D /* SignUpViewController.swift */; };
 		079816F821116A8000D8F184 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079816F721116A8000D8F184 /* LoginView.storyboard */; };
 		07D8EF4E211419B5000C2FDE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D8EF4C211419B5000C2FDE /* FBSDKCoreKit.framework */; };
 		07D8EF4F211419B5000C2FDE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D8EF4D211419B5000C2FDE /* FBSDKLoginKit.framework */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		02178ECA1171345B06DA24E2 /* Pods-MyRealTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		0700F74621218576004ADF1D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		079816F721116A8000D8F184 /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
 		07D8EF4C211419B5000C2FDE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		07D8EF4D211419B5000C2FDE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
@@ -50,6 +52,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0700F7482121857D004ADF1D /* Join */ = {
+			isa = PBXGroup;
+			children = (
+				0700F74621218576004ADF1D /* SignUpViewController.swift */,
+			);
+			path = Join;
+			sourceTree = "<group>";
+		};
+		0700F74A21218591004ADF1D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				07D8EF5021141FA2000C2FDE /* LoginViewController.swift */,
+				0700F7482121857D004ADF1D /* Join */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		303F273F20F758D500C27555 = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +92,7 @@
 			children = (
 				303F274B20F758D500C27555 /* AppDelegate.swift */,
 				303F274D20F758D500C27555 /* ViewController.swift */,
-				07D8EF5021141FA2000C2FDE /* LoginViewController.swift */,
+				0700F74A21218591004ADF1D /* Login */,
 				303F274F20F758D500C27555 /* Main.storyboard */,
 				079816F721116A8000D8F184 /* LoginView.storyboard */,
 				303F275220F758D500C27555 /* Assets.xcassets */,
@@ -197,12 +216,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
@@ -221,6 +242,7 @@
 			files = (
 				07D8EF5121141FA2000C2FDE /* LoginViewController.swift in Sources */,
 				303F274E20F758D500C27555 /* ViewController.swift in Sources */,
+				0700F74721218576004ADF1D /* SignUpViewController.swift in Sources */,
 				303F274C20F758D500C27555 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

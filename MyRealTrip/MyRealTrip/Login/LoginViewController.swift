@@ -20,7 +20,6 @@ class LoginViewController: UIViewController {
         loginButton.readPermissions = ["public_profile","email","user_friends"]
         
         print(FBSDKAccessToken.currentAccessTokenIsActive())
-        
         let facebookView = FBSDKProfilePictureView.init(frame: CGRect(x: 20, y: 20, width: 50, height: 50))
         view.addSubview(facebookView)
     }
