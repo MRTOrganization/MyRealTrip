@@ -27,6 +27,15 @@ class LoginViewController: UIViewController {
     @IBAction func loginTestButton(_ sender: FBSDKLoginButton) {
         print(FBSDKAccessToken.current().tokenString)
     }
+    
+//    @IBAction func didTapEmailLoginButton(_ sender: UIButton) {
+//        
+//        guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "EmailLoginViewController") else { return }
+//        
+//        self.navigationController?.pushViewController(uvc, animated: true)
+//    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -43,6 +43,8 @@ class SignUpViewController: UIViewController {
             let jsonDictionary = jsonObject as! [String: Any]
             print("========== { Response } ==========")
             print(jsonDictionary)
+            
+            self.navigationController?.popViewController(animated: true)
         }
     }
 }
