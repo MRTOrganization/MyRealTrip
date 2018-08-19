@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0700F74721218576004ADF1D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0700F74621218576004ADF1D /* SignUpViewController.swift */; };
+		07102D38212993900098B238 /* EmailLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07102D37212993900098B238 /* EmailLoginViewController.swift */; };
 		079816F821116A8000D8F184 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079816F721116A8000D8F184 /* LoginView.storyboard */; };
 		07D8EF4E211419B5000C2FDE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D8EF4C211419B5000C2FDE /* FBSDKCoreKit.framework */; };
 		07D8EF4F211419B5000C2FDE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D8EF4D211419B5000C2FDE /* FBSDKLoginKit.framework */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		02178ECA1171345B06DA24E2 /* Pods-MyRealTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.debug.xcconfig"; sourceTree = "<group>"; };
 		0700F74621218576004ADF1D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		07102D37212993900098B238 /* EmailLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginViewController.swift; sourceTree = "<group>"; };
 		079816F721116A8000D8F184 /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
 		07D8EF4C211419B5000C2FDE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		07D8EF4D211419B5000C2FDE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../Downloads/FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
@@ -64,9 +66,18 @@
 			isa = PBXGroup;
 			children = (
 				07D8EF5021141FA2000C2FDE /* LoginViewController.swift */,
+				07102D362129937B0098B238 /* emailLogin */,
 				0700F7482121857D004ADF1D /* Join */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		07102D362129937B0098B238 /* emailLogin */ = {
+			isa = PBXGroup;
+			children = (
+				07102D37212993900098B238 /* EmailLoginViewController.swift */,
+			);
+			path = emailLogin;
 			sourceTree = "<group>";
 		};
 		303F273F20F758D500C27555 = {
@@ -240,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07102D38212993900098B238 /* EmailLoginViewController.swift in Sources */,
 				07D8EF5121141FA2000C2FDE /* LoginViewController.swift in Sources */,
 				303F274E20F758D500C27555 /* ViewController.swift in Sources */,
 				0700F74721218576004ADF1D /* SignUpViewController.swift in Sources */,

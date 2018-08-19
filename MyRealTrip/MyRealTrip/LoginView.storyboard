@@ -76,7 +76,7 @@
         <!--이메일로 로그인-->
         <scene sceneID="eOB-we-Uk5">
             <objects>
-                <viewController storyboardIdentifier="EmailLoginViewController" id="6aM-Ws-LRD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EmailLoginViewController" id="6aM-Ws-LRD" customClass="EmailLoginViewController" customModule="MyRealTrip" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lmJ-AT-ld8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,6 +94,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="emailTextField:" destination="dcw-Ui-XXO" eventType="editingDidEnd" id="z3r-cT-g2E"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이메일 주소" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uO4-eQ-QJv">
                                 <rect key="frame" x="69" y="126" width="78" height="21"/>
@@ -113,6 +116,9 @@
                                 <rect key="frame" x="140" y="355" width="95" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="이메일로 로그인"/>
+                                <connections>
+                                    <action selector="didTapEmailLoginButton:" destination="6aM-Ws-LRD" eventType="touchUpInside" id="TMo-vY-Bu8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOz-Mj-gf1">
                                 <rect key="frame" x="101" y="302" width="172" height="30"/>
@@ -127,8 +133,13 @@
                         <viewLayoutGuide key="safeArea" id="OYO-Ma-EvZ"/>
                     </view>
                     <navigationItem key="navigationItem" title="이메일로 로그인" id="7Ly-2N-ryZ"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="wGq-OS-7cp" id="9k2-lJ-cGH"/>
+                        <outlet property="passwordTextField" destination="0dL-1Z-sLu" id="Eh0-Ew-UyA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SOp-8C-0jx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="dcw-Ui-XXO" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2970.4000000000001" y="85.714285714285722"/>
         </scene>
@@ -327,10 +338,18 @@
                     <navigationItem key="navigationItem" title="회원가입" id="UXd-6S-kjg"/>
                     <size key="freeformSize" width="375" height="1000"/>
                     <connections>
+                        <outlet property="allConsentButton" destination="avz-q1-ZR8" id="nte-Se-GGY"/>
+                        <outlet property="emailConditionButton" destination="acT-XQ-Bpt" id="jHv-bJ-APb"/>
+                        <outlet property="locationConditionButton" destination="ToB-na-KE3" id="iVo-MO-TFs"/>
+                        <outlet property="marketingConditionButton" destination="qrD-gD-2km" id="rA2-KH-Exx"/>
+                        <outlet property="personalInformationCollectionButton" destination="0MZ-7e-Hg4" id="5FD-xg-yA2"/>
+                        <outlet property="pushConditionButton" destination="F8l-i9-GXr" id="Iuz-QM-35b"/>
                         <outlet property="signUpEmailTextField" destination="JuF-9q-O1B" id="KWM-bg-jvh"/>
                         <outlet property="signUpNameTextField" destination="35H-xj-hZH" id="Eha-tp-KRp"/>
                         <outlet property="signUpPassWordTextField" destination="oEC-Gg-icg" id="15j-Dn-lCi"/>
                         <outlet property="signUpRePassWordTextField" destination="Pec-7N-5OD" id="Jku-b9-adl"/>
+                        <outlet property="signupConditionsButton" destination="lFF-sG-5Cj" id="qkr-oK-SzY"/>
+                        <outlet property="smsConditionButton" destination="uBR-te-8yL" id="NzI-Xn-gYW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1O9-ov-ztz" userLabel="First Responder" sceneMemberID="firstResponder"/>
