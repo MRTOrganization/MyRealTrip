@@ -25,7 +25,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lodging" translatesAutoresizingMaskIntoConstraints="NO" id="FdC-Rd-JwY">
-                                                <rect key="frame" x="0.0" y="-9" width="375" height="309"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tur-Ty-ZGj">
@@ -57,7 +57,7 @@
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <connections>
                                                                     <action selector="didTapLocationButton:" destination="Qm8-IG-GQG" eventType="touchUpInside" id="DVv-Id-g9e"/>
-                                                                    <segue destination="WHP-zl-eNk" kind="popoverPresentation" popoverAnchorView="iTS-Sw-hrI" id="gcl-5H-I7Q">
+                                                                    <segue destination="WHP-zl-eNk" kind="popoverPresentation" popoverAnchorView="iTS-Sw-hrI" id="Dgb-hs-dyQ">
                                                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                                                     </segue>
                                                                 </connections>
@@ -187,7 +187,7 @@
                                                 <state key="normal" title="호텔 검색하기"/>
                                                 <connections>
                                                     <action selector="didTapSearchButton:" destination="Qm8-IG-GQG" eventType="touchUpInside" id="eHj-jy-wVj"/>
-                                                    <segue destination="KkR-cn-dCL" kind="popoverPresentation" popoverAnchorView="CSO-7k-gtu" id="d1q-9Z-cSZ">
+                                                    <segue destination="KkR-cn-dCL" kind="popoverPresentation" popoverAnchorView="CSO-7k-gtu" id="pA9-Od-Yf0">
                                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                                     </segue>
                                                 </connections>
@@ -217,6 +217,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7VJ-gW-kGu"/>
                     </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="DII-AL-hz2"/>
                     <size key="freeformSize" width="375" height="1000"/>
                     <connections>
                         <outlet property="bannerButton" destination="YD4-Dx-zJx" id="IFl-BR-OOb"/>
@@ -231,7 +232,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ieh-0C-AwS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1252" y="-26.600985221674879"/>
+            <point key="canvasLocation" x="2194.4000000000001" y="-26.600985221674879"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="U4d-K1-SGT">
@@ -267,10 +268,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="q9b-vr-eGM"/>
                     </view>
+                    <navigationItem key="navigationItem" id="BHx-mu-Uef"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dv6-qR-NOY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2180" y="-397.53694581280791"/>
+            <point key="canvasLocation" x="3122.4000000000001" y="-397.53694581280791"/>
         </scene>
         <!--Hotel Web View Controller-->
         <scene sceneID="LEU-ig-nrw">
@@ -282,10 +284,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0ut-tH-NFN"/>
                     </view>
+                    <navigationItem key="navigationItem" id="2oY-Ww-YJH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tbz-pW-vr9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2137" y="494"/>
+            <point key="canvasLocation" x="3079.1999999999998" y="493.5960591133005"/>
         </scene>
     </scenes>
     <resources>
