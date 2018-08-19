@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070C823E21280CF600052154 /* HotelWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C823D21280CF600052154 /* HotelWebViewController.swift */; };
 		071448912110067300654299 /* LodgingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071448902110067300654299 /* LodgingViewController.swift */; };
 		07D6D1C4210EF02500D464D7 /* LodgingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */; };
 		303F274C20F758D500C27555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F274B20F758D500C27555 /* AppDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070C823D21280CF600052154 /* HotelWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelWebViewController.swift; sourceTree = "<group>"; };
 		071448902110067300654299 /* LodgingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodgingViewController.swift; sourceTree = "<group>"; };
 		07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LodgingView.storyboard; sourceTree = "<group>"; };
 		303F274820F758D500C27555 /* MyRealTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRealTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,7 @@
 				303F274B20F758D500C27555 /* AppDelegate.swift */,
 				303F274D20F758D500C27555 /* ViewController.swift */,
 				071448902110067300654299 /* LodgingViewController.swift */,
+				070C823D21280CF600052154 /* HotelWebViewController.swift */,
 				303F274F20F758D500C27555 /* Main.storyboard */,
 				07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */,
 				303F275220F758D500C27555 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070C823E21280CF600052154 /* HotelWebViewController.swift in Sources */,
 				303F274E20F758D500C27555 /* ViewController.swift in Sources */,
 				303F274C20F758D500C27555 /* AppDelegate.swift in Sources */,
 				071448912110067300654299 /* LodgingViewController.swift in Sources */,
