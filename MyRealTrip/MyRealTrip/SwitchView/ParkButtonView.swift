@@ -23,6 +23,9 @@ class ParkButtonView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.layer.cornerRadius = 4
+        view.layer.masksToBounds = true
+        
         firstButton.setTitle("오사카", for: .normal)
         firstButton.setTitleColor(UIColor.black, for: .normal)
         firstButton.layer.borderWidth = 0.5

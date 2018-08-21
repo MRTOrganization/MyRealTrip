@@ -17,6 +17,9 @@
 		07102D51212AB6D40098B238 /* PopularHotelViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07102D4F212AB6D40098B238 /* PopularHotelViewCollectionViewCell.xib */; };
 		07102D53212ABE020098B238 /* PersonalSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07102D52212ABE020098B238 /* PersonalSelectViewController.swift */; };
 		071448912110067300654299 /* LodgingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071448902110067300654299 /* LodgingViewController.swift */; };
+		0720542A212C067000B87C06 /* ParkSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07205429212C067000B87C06 /* ParkSelectViewController.swift */; };
+		0741F93A212BF3880085A5F7 /* LocationListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741F938212BF3880085A5F7 /* LocationListTableViewCell.swift */; };
+		0741F93B212BF3880085A5F7 /* LocationListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0741F939212BF3880085A5F7 /* LocationListTableViewCell.xib */; };
 		07D6D1C4210EF02500D464D7 /* LodgingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */; };
 		250F8EFE5DC0E7B65282B835 /* Pods_MyRealTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C0856A4691139B469102F8 /* Pods_MyRealTrip.framework */; };
 		303F274C20F758D500C27555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F274B20F758D500C27555 /* AppDelegate.swift */; };
@@ -37,6 +40,9 @@
 		07102D4F212AB6D40098B238 /* PopularHotelViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularHotelViewCollectionViewCell.xib; sourceTree = "<group>"; };
 		07102D52212ABE020098B238 /* PersonalSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalSelectViewController.swift; sourceTree = "<group>"; };
 		071448902110067300654299 /* LodgingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodgingViewController.swift; sourceTree = "<group>"; };
+		07205429212C067000B87C06 /* ParkSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkSelectViewController.swift; sourceTree = "<group>"; };
+		0741F938212BF3880085A5F7 /* LocationListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListTableViewCell.swift; sourceTree = "<group>"; };
+		0741F939212BF3880085A5F7 /* LocationListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationListTableViewCell.xib; sourceTree = "<group>"; };
 		07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LodgingView.storyboard; sourceTree = "<group>"; };
 		303F274820F758D500C27555 /* MyRealTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRealTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303F274B20F758D500C27555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +84,8 @@
 			children = (
 				07102D4E212AB6D40098B238 /* PopularHotelViewCollectionViewCell.swift */,
 				07102D4F212AB6D40098B238 /* PopularHotelViewCollectionViewCell.xib */,
+				0741F938212BF3880085A5F7 /* LocationListTableViewCell.swift */,
+				0741F939212BF3880085A5F7 /* LocationListTableViewCell.xib */,
 			);
 			path = HotelXib;
 			sourceTree = "<group>";
@@ -118,6 +126,7 @@
 				071448902110067300654299 /* LodgingViewController.swift */,
 				07102D52212ABE020098B238 /* PersonalSelectViewController.swift */,
 				07102D4A212A9DFD0098B238 /* LocationSelectViewController.swift */,
+				07205429212C067000B87C06 /* ParkSelectViewController.swift */,
 				070C823D21280CF600052154 /* HotelWebViewController.swift */,
 				303F274F20F758D500C27555 /* Main.storyboard */,
 				07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */,
@@ -211,6 +220,7 @@
 				07102D49212A92A60098B238 /* ParkButtonView.xib in Resources */,
 				303F275320F758D500C27555 /* Assets.xcassets in Resources */,
 				07102D45212A92950098B238 /* HotelButtonView.xib in Resources */,
+				0741F93B212BF3880085A5F7 /* LocationListTableViewCell.xib in Resources */,
 				303F275120F758D500C27555 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,9 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0741F93A212BF3880085A5F7 /* LocationListTableViewCell.swift in Sources */,
 				070C823E21280CF600052154 /* HotelWebViewController.swift in Sources */,
 				303F274E20F758D500C27555 /* ViewController.swift in Sources */,
 				07102D44212A92950098B238 /* HotelButtonView.swift in Sources */,
+				0720542A212C067000B87C06 /* ParkSelectViewController.swift in Sources */,
 				303F274C20F758D500C27555 /* AppDelegate.swift in Sources */,
 				07102D50212AB6D40098B238 /* PopularHotelViewCollectionViewCell.swift in Sources */,
 				07102D4B212A9DFD0098B238 /* LocationSelectViewController.swift in Sources */,

@@ -9,25 +9,27 @@
 import UIKit
 
 class HotelButtonView: UIViewController {
-
+    
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var locationButton: UIButton!
     @IBOutlet weak var calenderLabel: UILabel!
     @IBOutlet weak var calenderButton: UIButton!
     @IBOutlet weak var personLabel: UILabel!
     @IBOutlet weak var personButton: UIButton!
-  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.layer.cornerRadius = 4
+        view.layer.masksToBounds = true
+        
         locationButton.setTitle("", for: .normal)
         calenderButton.setTitle("", for: .normal)
         personButton.setTitle("", for: .normal)
         
         locationLabel.text = "여행지 또는 숙소명"
         locationLabel.textColor = UIColor.gray
-     }
-
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -45,13 +47,13 @@ class HotelButtonView: UIViewController {
     
     
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

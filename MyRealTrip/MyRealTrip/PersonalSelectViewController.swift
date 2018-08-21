@@ -23,7 +23,7 @@ class PersonalSelectViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
-    selectView.layer.cornerRadius = 5
+        selectView.layer.cornerRadius = 5
         selectView.layer.masksToBounds = true
     // Do any additional setup after loading the view.
         

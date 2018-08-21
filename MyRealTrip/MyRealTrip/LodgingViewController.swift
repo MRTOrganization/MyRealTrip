@@ -54,8 +54,7 @@ class LodgingViewController: UIViewController {
 //        personView.layer.borderWidth = lineWidth
         
         
-        
-        
+  
         
         
         // Do any additional setup after loading the view.
@@ -92,8 +91,7 @@ class LodgingViewController: UIViewController {
     }
     
     @IBAction func didTapPersonButton(_ sender: UIButton) {
-        print("Person OK")
-        
+        print("Person OK")        
     }
     
     @IBAction func didTapSearchButton(_ sender: UIButton) {
