@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CalendarDateRangePickerViewController (0.1.0)
+  - KWStepper (2.4.0)
+  - MBRadioCheckboxButton (1.3)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - CalendarDateRangePickerViewController (~> 0.1)
+  - KWStepper (~> 2.4)
+  - MBRadioCheckboxButton
+  - SwiftyJSON (~> 4.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CalendarDateRangePickerViewController
+    - KWStepper
+    - MBRadioCheckboxButton
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CalendarDateRangePickerViewController: 9e82a36a21ad7338f4e21a314469bfabe1f738fb
+  KWStepper: e4347229115c856ae193afd92f84807a62dfb8a9
+  MBRadioCheckboxButton: 864c86ddc38527075158e9a22887a0ad0eb9edff
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: d5070521fa9c981d1cd022ae619eb2b833c95b8a
+
+COCOAPODS: 1.5.3

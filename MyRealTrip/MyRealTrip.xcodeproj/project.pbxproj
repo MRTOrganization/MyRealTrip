@@ -8,15 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		07D6D1C4210EF02500D464D7 /* LodgingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */; };
+		301E13702125683B00782892 /* SetSeatGradePopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301E136F2125683B00782892 /* SetSeatGradePopup.storyboard */; };
+		301E13722125686B00782892 /* SetSeatGradePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E13712125686B00782892 /* SetSeatGradePopup.swift */; };
+		301E137421256DC600782892 /* RadioButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E137321256DC600782892 /* RadioButtonContainer.swift */; };
+		301E137621256DEB00782892 /* RadioButtonContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E137521256DEB00782892 /* RadioButtonContainerView.swift */; };
+		301E137821256E1C00782892 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E137721256E1C00782892 /* RadioButton.swift */; };
+		301E137A21256E7B00782892 /* RadioCheckboxBaseContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E137921256E7B00782892 /* RadioCheckboxBaseContainer.swift */; };
+		301E137C21256E9200782892 /* RadioCheckboxBaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E137B21256E9200782892 /* RadioCheckboxBaseButton.swift */; };
+		301E138121257DD600782892 /* SetDeparturePopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301E138021257DD600782892 /* SetDeparturePopup.storyboard */; };
+		301E13832125950200782892 /* SetDeparturePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E13822125950200782892 /* SetDeparturePopupViewController.swift */; };
 		303F274C20F758D500C27555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F274B20F758D500C27555 /* AppDelegate.swift */; };
 		303F274E20F758D500C27555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F274D20F758D500C27555 /* ViewController.swift */; };
 		303F275120F758D500C27555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303F274F20F758D500C27555 /* Main.storyboard */; };
 		303F275320F758D500C27555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303F275220F758D500C27555 /* Assets.xcassets */; };
 		303F275620F758D500C27555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303F275420F758D500C27555 /* LaunchScreen.storyboard */; };
+		304689F3211D874600C5809D /* SetPeoplePopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304689F2211D874600C5809D /* SetPeoplePopup.storyboard */; };
+		304689F6211D89D200C5809D /* SetPeoplePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304689F5211D89D200C5809D /* SetPeoplePopupViewController.swift */; };
+		304689FA211D9B4800C5809D /* UIAlertController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304689F9211D9B4800C5809D /* UIAlertController+Helper.swift */; };
+		30527C0D2126935B000F17DF /* SetDestinationPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30527C0C2126935B000F17DF /* SetDestinationPopupViewController.swift */; };
+		30527C0F21269374000F17DF /* SetDestinationPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30527C0E21269374000F17DF /* SetDestinationPopup.storyboard */; };
+		30527C112126AFED000F17DF /* AirlineTicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30527C102126AFED000F17DF /* AirlineTicketModel.swift */; };
+		3091C9552110151200C48CE8 /* AirlineTicketView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3091C9542110151200C48CE8 /* AirlineTicketView.storyboard */; };
+		3091C95721101C6900C48CE8 /* AirlineTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091C95621101C6900C48CE8 /* AirlineTicketViewController.swift */; };
+		30E0399C212C010700D53BDF /* AirlineTicketSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E0399B212C010700D53BDF /* AirlineTicketSearchViewController.swift */; };
+		F5EA791628240DDD7F02C034 /* Pods_MyRealTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0872BF166D0AB869094EB58C /* Pods_MyRealTrip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LodgingView.storyboard; sourceTree = "<group>"; };
+		0872BF166D0AB869094EB58C /* Pods_MyRealTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRealTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		301E136F2125683B00782892 /* SetSeatGradePopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetSeatGradePopup.storyboard; sourceTree = "<group>"; };
+		301E13712125686B00782892 /* SetSeatGradePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSeatGradePopup.swift; sourceTree = "<group>"; };
+		301E137321256DC600782892 /* RadioButtonContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonContainer.swift; sourceTree = "<group>"; };
+		301E137521256DEB00782892 /* RadioButtonContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonContainerView.swift; sourceTree = "<group>"; };
+		301E137721256E1C00782892 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		301E137921256E7B00782892 /* RadioCheckboxBaseContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCheckboxBaseContainer.swift; sourceTree = "<group>"; };
+		301E137B21256E9200782892 /* RadioCheckboxBaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCheckboxBaseButton.swift; sourceTree = "<group>"; };
+		301E138021257DD600782892 /* SetDeparturePopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetDeparturePopup.storyboard; sourceTree = "<group>"; };
+		301E13822125950200782892 /* SetDeparturePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDeparturePopupViewController.swift; sourceTree = "<group>"; };
 		303F274820F758D500C27555 /* MyRealTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRealTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303F274B20F758D500C27555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		303F274D20F758D500C27555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +53,17 @@
 		303F275220F758D500C27555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303F275520F758D500C27555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		303F275720F758D500C27555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304689F2211D874600C5809D /* SetPeoplePopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetPeoplePopup.storyboard; sourceTree = "<group>"; };
+		304689F5211D89D200C5809D /* SetPeoplePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPeoplePopupViewController.swift; sourceTree = "<group>"; };
+		304689F9211D9B4800C5809D /* UIAlertController+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Helper.swift"; sourceTree = "<group>"; };
+		30527C0C2126935B000F17DF /* SetDestinationPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDestinationPopupViewController.swift; sourceTree = "<group>"; };
+		30527C0E21269374000F17DF /* SetDestinationPopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetDestinationPopup.storyboard; sourceTree = "<group>"; };
+		30527C102126AFED000F17DF /* AirlineTicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineTicketModel.swift; sourceTree = "<group>"; };
+		3091C9542110151200C48CE8 /* AirlineTicketView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AirlineTicketView.storyboard; sourceTree = "<group>"; };
+		3091C95621101C6900C48CE8 /* AirlineTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineTicketViewController.swift; sourceTree = "<group>"; };
+		30E0399B212C010700D53BDF /* AirlineTicketSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineTicketSearchViewController.swift; sourceTree = "<group>"; };
+		4FE3DBCF08C05D8015D10E82 /* Pods-MyRealTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		AA077AAFA94C243A675223C7 /* Pods-MyRealTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5EA791628240DDD7F02C034 /* Pods_MyRealTrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D9F7A6584A4F3A473BBBA67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0872BF166D0AB869094EB58C /* Pods_MyRealTrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301E137D21257D3500782892 /* source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
 		303F273F20F758D500C27555 = {
 			isa = PBXGroup;
 			children = (
 				303F274A20F758D500C27555 /* MyRealTrip */,
 				303F274920F758D500C27555 /* Products */,
+				44645A13A0ABFD2AFAF62E3B /* Pods */,
+				2D9F7A6584A4F3A473BBBA67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +114,43 @@
 		303F274A20F758D500C27555 /* MyRealTrip */ = {
 			isa = PBXGroup;
 			children = (
+				301E137D21257D3500782892 /* source */,
+				301E137B21256E9200782892 /* RadioCheckboxBaseButton.swift */,
+				301E137321256DC600782892 /* RadioButtonContainer.swift */,
+				301E137521256DEB00782892 /* RadioButtonContainerView.swift */,
+				301E137721256E1C00782892 /* RadioButton.swift */,
+				301E137921256E7B00782892 /* RadioCheckboxBaseContainer.swift */,
 				303F274B20F758D500C27555 /* AppDelegate.swift */,
 				303F274D20F758D500C27555 /* ViewController.swift */,
 				303F274F20F758D500C27555 /* Main.storyboard */,
 				07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */,
+				3091C9542110151200C48CE8 /* AirlineTicketView.storyboard */,
+				3091C95621101C6900C48CE8 /* AirlineTicketViewController.swift */,
+				30E0399B212C010700D53BDF /* AirlineTicketSearchViewController.swift */,
+				30527C102126AFED000F17DF /* AirlineTicketModel.swift */,
+				304689F2211D874600C5809D /* SetPeoplePopup.storyboard */,
+				304689F5211D89D200C5809D /* SetPeoplePopupViewController.swift */,
+				301E136F2125683B00782892 /* SetSeatGradePopup.storyboard */,
+				301E13712125686B00782892 /* SetSeatGradePopup.swift */,
+				301E138021257DD600782892 /* SetDeparturePopup.storyboard */,
+				301E13822125950200782892 /* SetDeparturePopupViewController.swift */,
+				30527C0E21269374000F17DF /* SetDestinationPopup.storyboard */,
+				30527C0C2126935B000F17DF /* SetDestinationPopupViewController.swift */,
 				303F275220F758D500C27555 /* Assets.xcassets */,
 				303F275420F758D500C27555 /* LaunchScreen.storyboard */,
 				303F275720F758D500C27555 /* Info.plist */,
+				304689F9211D9B4800C5809D /* UIAlertController+Helper.swift */,
 			);
 			path = MyRealTrip;
+			sourceTree = "<group>";
+		};
+		44645A13A0ABFD2AFAF62E3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3DBCF08C05D8015D10E82 /* Pods-MyRealTrip.debug.xcconfig */,
+				AA077AAFA94C243A675223C7 /* Pods-MyRealTrip.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 303F275A20F758D500C27555 /* Build configuration list for PBXNativeTarget "MyRealTrip" */;
 			buildPhases = (
+				2FB0A3FE2A4B999C75693F7C /* [CP] Check Pods Manifest.lock */,
 				303F274420F758D500C27555 /* Sources */,
 				303F274520F758D500C27555 /* Frameworks */,
 				303F274620F758D500C27555 /* Resources */,
+				546797D0C9779DED7B58E0F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +214,86 @@
 			buildActionMask = 2147483647;
 			files = (
 				07D6D1C4210EF02500D464D7 /* LodgingView.storyboard in Resources */,
+				304689F3211D874600C5809D /* SetPeoplePopup.storyboard in Resources */,
 				303F275620F758D500C27555 /* LaunchScreen.storyboard in Resources */,
+				301E13702125683B00782892 /* SetSeatGradePopup.storyboard in Resources */,
 				303F275320F758D500C27555 /* Assets.xcassets in Resources */,
+				3091C9552110151200C48CE8 /* AirlineTicketView.storyboard in Resources */,
+				301E138121257DD600782892 /* SetDeparturePopup.storyboard in Resources */,
 				303F275120F758D500C27555 /* Main.storyboard in Resources */,
+				30527C0F21269374000F17DF /* SetDestinationPopup.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FB0A3FE2A4B999C75693F7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyRealTrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		546797D0C9779DED7B58E0F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CalendarDateRangePickerViewController/CalendarDateRangePickerViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/KWStepper/KWStepper.framework",
+				"${BUILT_PRODUCTS_DIR}/MBRadioCheckboxButton/MBRadioCheckboxButton.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalendarDateRangePickerViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KWStepper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBRadioCheckboxButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		303F274420F758D500C27555 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301E137821256E1C00782892 /* RadioButton.swift in Sources */,
 				303F274E20F758D500C27555 /* ViewController.swift in Sources */,
+				304689F6211D89D200C5809D /* SetPeoplePopupViewController.swift in Sources */,
+				301E137621256DEB00782892 /* RadioButtonContainerView.swift in Sources */,
 				303F274C20F758D500C27555 /* AppDelegate.swift in Sources */,
+				301E137421256DC600782892 /* RadioButtonContainer.swift in Sources */,
+				3091C95721101C6900C48CE8 /* AirlineTicketViewController.swift in Sources */,
+				301E13832125950200782892 /* SetDeparturePopupViewController.swift in Sources */,
+				30527C112126AFED000F17DF /* AirlineTicketModel.swift in Sources */,
+				30527C0D2126935B000F17DF /* SetDestinationPopupViewController.swift in Sources */,
+				30E0399C212C010700D53BDF /* AirlineTicketSearchViewController.swift in Sources */,
+				301E13722125686B00782892 /* SetSeatGradePopup.swift in Sources */,
+				301E137A21256E7B00782892 /* RadioCheckboxBaseContainer.swift in Sources */,
+				301E137C21256E9200782892 /* RadioCheckboxBaseButton.swift in Sources */,
+				304689FA211D9B4800C5809D /* UIAlertController+Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +435,7 @@
 		};
 		303F275B20F758D500C27555 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE3DBCF08C05D8015D10E82 /* Pods-MyRealTrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -301,6 +455,7 @@
 		};
 		303F275C20F758D500C27555 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA077AAFA94C243A675223C7 /* Pods-MyRealTrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

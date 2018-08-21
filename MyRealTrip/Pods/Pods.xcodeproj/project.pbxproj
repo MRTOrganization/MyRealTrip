@@ -1,0 +1,1400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C685E11EFED0381F0D77FA15CAD517 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B3036A4A1A6227ACE7B41FDE1FF46A /* SwiftyJSON.swift */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFA7FBE27E86912669E5A70A4A72EFE /* Timeline.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F86DD46AE34EE4BEDF66FD88466602A4 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E4EC50ABC329D5A836D1D94242A58C0 /* CalendarDateRangePickerViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC792E20FF538A4CB4361FDDCD75E26 /* CalendarDateRangePickerViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0F67BCCD6A2F47C3CC4DE48449A719 /* RadioCheckboxBaseContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9CCA9BFF11B0F7A506C9E9A812293C /* RadioCheckboxBaseContainer.swift */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD50775FADF540A7C07E75B8ED426CA /* TaskDelegate.swift */; };
+		42675DB964CF2CC0522EB39DCB5A1858 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 894627606729D97E471517B9174A2949 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44D9A1B613EBDBD285773A89DC23C128 /* CalendarDateRangePickerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A16B000E50BA9891E6CE3953E2073 /* CalendarDateRangePickerHeaderView.swift */; };
+		4E90C4DE34CC275B156B71B41CD147D0 /* MBRadioCheckboxButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84A92EB337FD9BD0AE08001B914304 /* MBRadioCheckboxButton-dummy.m */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BDE786367574C81FED2EE670BAFF59 /* Request.swift */; };
+		5468F9852A4B2988A2B72B625AA86887 /* KWStepper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144D9407EA58CB480C9904E9C3096F24 /* KWStepper-dummy.m */; };
+		56E21F622F78EBDB43BF942A64BBE732 /* KWStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DB619C17704F09A0A39602C7A0DEA7 /* KWStepper.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42D418963359B09636DF5E475B03E9 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF21B77BF1B47BD0EE0292844596891A /* ServerTrustPolicy.swift */; };
+		64C04F47B0AF856D32178A3069587E88 /* CheckboxButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01A9789757BB9F5E0A3F40077062EF /* CheckboxButtonContainer.swift */; };
+		6B0961727E91E763BD476B98C354DAE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE162A93F1D9A95D33C2F56E55B3E7D /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A172B78C183E02DF8A1DA672118B7D50 /* Result.swift */; };
+		8004AFC0477281A16BCA1DA511826138 /* CalendarDateRangePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0410D03AE98D6BCEB81F0BFCF3537E /* CalendarDateRangePickerCell.swift */; };
+		80F0E5D9A9204455D4C630C8878B7E8E /* MBRadioCheckboxButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D03BD16C66E40D203C619BFFF05CAE /* MBRadioCheckboxButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82083E9CDD1B009B97A94706F766F078 /* RadioCheckboxBaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43316D56EC2E65076C6F9B449E25EC62 /* RadioCheckboxBaseButton.swift */; };
+		834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		88F146CB93770A016357256566A64233 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23C2BBDD04D1FA855C8742862C956BB /* RadioButton.swift */; };
+		8BF5835570046A1607A7E615FCC40F45 /* Pods-MyRealTrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C88CF380D3C51CFC10A68525AFF0BA90 /* Pods-MyRealTrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EFA1C73C8B21F1E6E5AA27A7F4EAADF /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1940E3E2C5AA6E18EEBD8E17E27140B8 /* SwiftyJSON-dummy.m */; };
+		98B5A766AC1B8D9F43B1F124B978AA72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D068A3CC8CD94F9C2BDFBD8173823 /* AFError.swift */; };
+		A0E6E94946BAC9EB4F12B2938798A8E9 /* RadioButtonContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0885BD51E07CF429AB154E9FCC784D35 /* RadioButtonContainerView.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF1B6C1E4E26C50483D01C9E0269E9 /* NetworkReachabilityManager.swift */; };
+		A438784BFDBA42434F5DFFECBD6AA107 /* RadioButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113A0382E676265C6E0B03BEBF11C2DD /* RadioButtonContainer.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B16DA1AA8BB40A02ECEB5D68A2861C /* Alamofire-dummy.m */; };
+		AD9F1C66BB7009CA6F107929E60A028A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB6959F12C9BDC50FF3584B093E2E3 /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E2FC57C7EE78EF5B35EEF6C17B12AA /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF3B36164EAF7605DCD4468843E781 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7092BD89D10E9DAF4A298EA50C3D7A /* ParameterEncoding.swift */; };
+		CA1BC90207ACC04694A1323D0AA64B72 /* CalendarDateRangePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A25A7C980507990B81E4FE397B84D94 /* CalendarDateRangePickerViewController.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECC061975067FF6445E89D992AF574 /* Response.swift */; };
+		D209286CA12279BEAE19895D4C686AF6 /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9CD7190DAB2B7E47069B1B869D8197 /* CheckboxButton.swift */; };
+		D21636421417B7BB81335D273F332713 /* Pods-MyRealTrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E0967557E3CA7B0FAFA46BDC4A051B /* Pods-MyRealTrip-dummy.m */; };
+		D30D46CE9F40A5ACFC9D92CDADFEC1DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DFE787A7DE94E6621F08D277481BE413 /* KWStepper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D412D113AB7C273E54EC5A6FE6E415EA /* KWStepper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E907F38D91F4D20856AB00DA46F94866 /* CheckboxButtonContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65049D6ED90CC64B40261581C52A8998 /* CheckboxButtonContainerView.swift */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DB07FCA32B6FCAE172FEEA1F30B568 /* Notifications.swift */; };
+		F3CA961367AE4C71824A872DC4C97FC8 /* CalendarDateRangePickerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E19E1ABD7A2732B316809125004FDC01 /* CalendarDateRangePickerViewController-dummy.m */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AFF59065631CC5E4678BA39E2A130F /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FE7B998A17828FDA73394B0D665F3F /* Alamofire.swift */; };
+		F8D0D0B1830FEA76A80A1B8DABDA2AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F9412644A34943B536E2BACBD357B907 /* KWStepper+Chaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E2D417190CF6A48EC52932B85D1F35 /* KWStepper+Chaining.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		099084177514B446B5FCB5361684EE7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E942139609380D2DC3D7CD69D1A5E07;
+			remoteInfo = KWStepper;
+		};
+		30BDC39ED22AED59242FDDF1BF785361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CBA1C2622C74B225C4D13AF3A5334CA;
+			remoteInfo = MBRadioCheckboxButton;
+		};
+		741AB71C135E5A53ABCD68ACBAB93983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F6EA6E60876BF509C484037E487507E;
+			remoteInfo = CalendarDateRangePickerViewController;
+		};
+		F237F43BECE616255A5A4FA420CE1E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		FF728290F62AE90A11338C77DDF570A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F5346458FA93B777A48653D3EA0A7E;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0462FAF0DA14A54D9F0BF9933B170670 /* Pods-MyRealTrip-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyRealTrip-resources.sh"; sourceTree = "<group>"; };
+		0885BD51E07CF429AB154E9FCC784D35 /* RadioButtonContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioButtonContainerView.swift; path = Source/RadioButton/RadioButtonContainerView.swift; sourceTree = "<group>"; };
+		0B44E5EC66FE459E76827A24EB563DE3 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE967031F6254C92C7CE3496D30B008 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		113A0382E676265C6E0B03BEBF11C2DD /* RadioButtonContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioButtonContainer.swift; path = Source/RadioButton/RadioButtonContainer.swift; sourceTree = "<group>"; };
+		144D9407EA58CB480C9904E9C3096F24 /* KWStepper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KWStepper-dummy.m"; sourceTree = "<group>"; };
+		1940E3E2C5AA6E18EEBD8E17E27140B8 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		23DB07FCA32B6FCAE172FEEA1F30B568 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		2AF8BA32ED69E55C631013CD6379C1E9 /* KWStepper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KWStepper.xcconfig; sourceTree = "<group>"; };
+		342DD46CA714E842A31803E456721FFC /* Pods-MyRealTrip-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyRealTrip-frameworks.sh"; sourceTree = "<group>"; };
+		39E2FC57C7EE78EF5B35EEF6C17B12AA /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		3A25A7C980507990B81E4FE397B84D94 /* CalendarDateRangePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDateRangePickerViewController.swift; path = CalendarDateRangePickerViewController/Classes/CalendarDateRangePickerViewController.swift; sourceTree = "<group>"; };
+		3A42D418963359B09636DF5E475B03E9 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		3AC109D1CB322F0D7B3A3C3A92E38188 /* Pods-MyRealTrip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyRealTrip-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BFBAE94B291BCF0050B92B007ED71CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EFA7FBE27E86912669E5A70A4A72EFE /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		43316D56EC2E65076C6F9B449E25EC62 /* RadioCheckboxBaseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioCheckboxBaseButton.swift; path = Source/BaseButton/RadioCheckboxBaseButton.swift; sourceTree = "<group>"; };
+		4AD50775FADF540A7C07E75B8ED426CA /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		4AE162A93F1D9A95D33C2F56E55B3E7D /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		4D53F23602980E9F0BD69731E6DBC7B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DDDC9AD86EC17EBB45E6593DB562E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FB6959F12C9BDC50FF3584B093E2E3 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		53CA443ACDDF6814EF132C87632B05CF /* Pods-MyRealTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRealTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		5624B8815E7CCDF3A6921F548159F159 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5BCF3B36164EAF7605DCD4468843E781 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		5CCC37894E92C4127724812E3D61E80B /* Pods_MyRealTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyRealTrip.framework; path = "Pods-MyRealTrip.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F830D2A4DF65C4CD704B97FD7D115F6 /* CalendarDateRangePickerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalendarDateRangePickerViewController.xcconfig; sourceTree = "<group>"; };
+		65049D6ED90CC64B40261581C52A8998 /* CheckboxButtonContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckboxButtonContainerView.swift; path = Source/CheckboxButton/CheckboxButtonContainerView.swift; sourceTree = "<group>"; };
+		65E0967557E3CA7B0FAFA46BDC4A051B /* Pods-MyRealTrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyRealTrip-dummy.m"; sourceTree = "<group>"; };
+		71BDE786367574C81FED2EE670BAFF59 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		72B16DA1AA8BB40A02ECEB5D68A2861C /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		734660F5F4C6532F535CDF4452191BBF /* KWStepper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KWStepper-prefix.pch"; sourceTree = "<group>"; };
+		74D03BD16C66E40D203C619BFFF05CAE /* MBRadioCheckboxButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBRadioCheckboxButton-umbrella.h"; sourceTree = "<group>"; };
+		761DE7799BF1E3DAF8044736555F1F13 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		78DCFAEAC3E321EAD16CF8E9FF264483 /* CalendarDateRangePickerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarDateRangePickerViewController-prefix.pch"; sourceTree = "<group>"; };
+		7B0D8333EEA8873898111A516443EA36 /* KWStepper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KWStepper.modulemap; sourceTree = "<group>"; };
+		7E535935F6C3529AC4A97B2EB0A99B75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F2A426904DF8C74B4E16504B3AA633 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		894627606729D97E471517B9174A2949 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		8B2D068A3CC8CD94F9C2BDFBD8173823 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		8D0410D03AE98D6BCEB81F0BFCF3537E /* CalendarDateRangePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDateRangePickerCell.swift; path = CalendarDateRangePickerViewController/Classes/CalendarDateRangePickerCell.swift; sourceTree = "<group>"; };
+		92DB619C17704F09A0A39602C7A0DEA7 /* KWStepper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KWStepper.swift; path = Source/KWStepper.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B089939765C86E6119DEB8BF72E3B83 /* Pods-MyRealTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRealTrip.release.xcconfig"; sourceTree = "<group>"; };
+		9F50E71C73715CAB32114E60301CECE0 /* MBRadioCheckboxButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBRadioCheckboxButton.modulemap; sourceTree = "<group>"; };
+		9FEF1B6C1E4E26C50483D01C9E0269E9 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		A0B4A20C872149AD4418D559426F0D0E /* MBRadioCheckboxButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBRadioCheckboxButton.framework; path = MBRadioCheckboxButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A172B78C183E02DF8A1DA672118B7D50 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		A4F6DEFCBF7E616405A1326BBC42626B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		A84C15AD6E531F5F719A25B776D0FD53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF21B77BF1B47BD0EE0292844596891A /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		B41E4596195FE1B765C4DE1EC242B018 /* CalendarDateRangePickerViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CalendarDateRangePickerViewController.framework; path = CalendarDateRangePickerViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9CD7190DAB2B7E47069B1B869D8197 /* CheckboxButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckboxButton.swift; path = Source/CheckboxButton/CheckboxButton.swift; sourceTree = "<group>"; };
+		C397E845D76A1AAD4FA563BEB955CE3E /* Pods-MyRealTrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyRealTrip.modulemap"; sourceTree = "<group>"; };
+		C688B0145E76AE385B2D0C66C62C5C54 /* MBRadioCheckboxButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBRadioCheckboxButton.xcconfig; sourceTree = "<group>"; };
+		C88CF380D3C51CFC10A68525AFF0BA90 /* Pods-MyRealTrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyRealTrip-umbrella.h"; sourceTree = "<group>"; };
+		C9AFF59065631CC5E4678BA39E2A130F /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		CC84A92EB337FD9BD0AE08001B914304 /* MBRadioCheckboxButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBRadioCheckboxButton-dummy.m"; sourceTree = "<group>"; };
+		CF01A9789757BB9F5E0A3F40077062EF /* CheckboxButtonContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckboxButtonContainer.swift; path = Source/CheckboxButton/CheckboxButtonContainer.swift; sourceTree = "<group>"; };
+		D3FE7B998A17828FDA73394B0D665F3F /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		D412D113AB7C273E54EC5A6FE6E415EA /* KWStepper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KWStepper-umbrella.h"; sourceTree = "<group>"; };
+		D8ECC061975067FF6445E89D992AF574 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		DC7092BD89D10E9DAF4A298EA50C3D7A /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		E19E1ABD7A2732B316809125004FDC01 /* CalendarDateRangePickerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CalendarDateRangePickerViewController-dummy.m"; sourceTree = "<group>"; };
+		E1E2D417190CF6A48EC52932B85D1F35 /* KWStepper+Chaining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "KWStepper+Chaining.swift"; path = "Source/KWStepper+Chaining.swift"; sourceTree = "<group>"; };
+		E23C2BBDD04D1FA855C8742862C956BB /* RadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioButton.swift; path = Source/RadioButton/RadioButton.swift; sourceTree = "<group>"; };
+		E3B3036A4A1A6227ACE7B41FDE1FF46A /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		E4F730AECFE3503324B58E7E2D1F343E /* Pods-MyRealTrip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyRealTrip-acknowledgements.plist"; sourceTree = "<group>"; };
+		E941852B9B83601AE99707CEE2957F56 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		EB480A93B7D0095FD20AD3DC6EC7C41E /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		EDF59BEB51C998180DC25FBC33022192 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE50645462DBE267C61C14B220758187 /* KWStepper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KWStepper.framework; path = KWStepper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5A16B000E50BA9891E6CE3953E2073 /* CalendarDateRangePickerHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDateRangePickerHeaderView.swift; path = CalendarDateRangePickerViewController/Classes/CalendarDateRangePickerHeaderView.swift; sourceTree = "<group>"; };
+		F4E8D3759772C38C5AA59FBF69888F09 /* MBRadioCheckboxButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBRadioCheckboxButton-prefix.pch"; sourceTree = "<group>"; };
+		F86DD46AE34EE4BEDF66FD88466602A4 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		F898D1DACE8BD83164ACA5A7CC731AE0 /* CalendarDateRangePickerViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CalendarDateRangePickerViewController.modulemap; sourceTree = "<group>"; };
+		FF9CCA9BFF11B0F7A506C9E9A812293C /* RadioCheckboxBaseContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioCheckboxBaseContainer.swift; path = Source/BaseButton/RadioCheckboxBaseContainer.swift; sourceTree = "<group>"; };
+		FFC792E20FF538A4CB4361FDDCD75E26 /* CalendarDateRangePickerViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarDateRangePickerViewController-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48E14DB9912A2AD6C4513FCE0FFDE41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B5A766AC1B8D9F43B1F124B978AA72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BDCBEE8BD19C642EB12513CE475EBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30D46CE9F40A5ACFC9D92CDADFEC1DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646C462C15A6FD3FB41356F0101ABDD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D0D0B1830FEA76A80A1B8DABDA2AFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0BB6E0381553896B1D815AE5490B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F1C66BB7009CA6F107929E60A028A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D262641FB78FA999F715B9FC142BF8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0961727E91E763BD476B98C354DAE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A635FE3635DC997918F04B565A3285 /* Pods-MyRealTrip */ = {
+			isa = PBXGroup;
+			children = (
+				3BFBAE94B291BCF0050B92B007ED71CA /* Info.plist */,
+				C397E845D76A1AAD4FA563BEB955CE3E /* Pods-MyRealTrip.modulemap */,
+				3AC109D1CB322F0D7B3A3C3A92E38188 /* Pods-MyRealTrip-acknowledgements.markdown */,
+				E4F730AECFE3503324B58E7E2D1F343E /* Pods-MyRealTrip-acknowledgements.plist */,
+				65E0967557E3CA7B0FAFA46BDC4A051B /* Pods-MyRealTrip-dummy.m */,
+				342DD46CA714E842A31803E456721FFC /* Pods-MyRealTrip-frameworks.sh */,
+				0462FAF0DA14A54D9F0BF9933B170670 /* Pods-MyRealTrip-resources.sh */,
+				C88CF380D3C51CFC10A68525AFF0BA90 /* Pods-MyRealTrip-umbrella.h */,
+				53CA443ACDDF6814EF132C87632B05CF /* Pods-MyRealTrip.debug.xcconfig */,
+				9B089939765C86E6119DEB8BF72E3B83 /* Pods-MyRealTrip.release.xcconfig */,
+			);
+			name = "Pods-MyRealTrip";
+			path = "Target Support Files/Pods-MyRealTrip";
+			sourceTree = "<group>";
+		};
+		1D1A45538EE02A8CB2DA29A16A30B40C /* MBRadioCheckboxButton */ = {
+			isa = PBXGroup;
+			children = (
+				BC9CD7190DAB2B7E47069B1B869D8197 /* CheckboxButton.swift */,
+				CF01A9789757BB9F5E0A3F40077062EF /* CheckboxButtonContainer.swift */,
+				65049D6ED90CC64B40261581C52A8998 /* CheckboxButtonContainerView.swift */,
+				E23C2BBDD04D1FA855C8742862C956BB /* RadioButton.swift */,
+				113A0382E676265C6E0B03BEBF11C2DD /* RadioButtonContainer.swift */,
+				0885BD51E07CF429AB154E9FCC784D35 /* RadioButtonContainerView.swift */,
+				43316D56EC2E65076C6F9B449E25EC62 /* RadioCheckboxBaseButton.swift */,
+				FF9CCA9BFF11B0F7A506C9E9A812293C /* RadioCheckboxBaseContainer.swift */,
+				F39223EA8B26071D5875A683396C2BD4 /* Support Files */,
+			);
+			name = MBRadioCheckboxButton;
+			path = MBRadioCheckboxButton;
+			sourceTree = "<group>";
+		};
+		2871D4A0521A548827C94502D4BCDE8E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10A635FE3635DC997918F04B565A3285 /* Pods-MyRealTrip */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		74E3005720B479A54DD6F6FB4D14D89B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBE5D9E7DE397186BC31234739834D0C /* Alamofire */,
+				CD785F9D43716764CB3A5B17910A64A2 /* CalendarDateRangePickerViewController */,
+				ADE2D1C6E5CBECC3DB06CEC394D9A97F /* KWStepper */,
+				1D1A45538EE02A8CB2DA29A16A30B40C /* MBRadioCheckboxButton */,
+				DDDD4D3CF9BF86A58B36CE5B4D22FD86 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				74E3005720B479A54DD6F6FB4D14D89B /* Pods */,
+				F85FEDA2BF9B2EFA0C0A0665A8424721 /* Products */,
+				2871D4A0521A548827C94502D4BCDE8E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9C853B065FF8CC0AD78029A4E646C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A84C15AD6E531F5F719A25B776D0FD53 /* Info.plist */,
+				7B0D8333EEA8873898111A516443EA36 /* KWStepper.modulemap */,
+				2AF8BA32ED69E55C631013CD6379C1E9 /* KWStepper.xcconfig */,
+				144D9407EA58CB480C9904E9C3096F24 /* KWStepper-dummy.m */,
+				734660F5F4C6532F535CDF4452191BBF /* KWStepper-prefix.pch */,
+				D412D113AB7C273E54EC5A6FE6E415EA /* KWStepper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KWStepper";
+			sourceTree = "<group>";
+		};
+		88BE531795F0F2400EBD8374D9AA3950 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E535935F6C3529AC4A97B2EB0A99B75 /* Info.plist */,
+				761DE7799BF1E3DAF8044736555F1F13 /* SwiftyJSON.modulemap */,
+				EB480A93B7D0095FD20AD3DC6EC7C41E /* SwiftyJSON.xcconfig */,
+				1940E3E2C5AA6E18EEBD8E17E27140B8 /* SwiftyJSON-dummy.m */,
+				0DE967031F6254C92C7CE3496D30B008 /* SwiftyJSON-prefix.pch */,
+				894627606729D97E471517B9174A2949 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		8CE3E9007F4BFAFB1F7CC00B8A233EF4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87F2A426904DF8C74B4E16504B3AA633 /* Alamofire.modulemap */,
+				E941852B9B83601AE99707CEE2957F56 /* Alamofire.xcconfig */,
+				72B16DA1AA8BB40A02ECEB5D68A2861C /* Alamofire-dummy.m */,
+				A4F6DEFCBF7E616405A1326BBC42626B /* Alamofire-prefix.pch */,
+				F86DD46AE34EE4BEDF66FD88466602A4 /* Alamofire-umbrella.h */,
+				5624B8815E7CCDF3A6921F548159F159 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		ADBA292E989BB061E57D60F2E985E449 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F898D1DACE8BD83164ACA5A7CC731AE0 /* CalendarDateRangePickerViewController.modulemap */,
+				5F830D2A4DF65C4CD704B97FD7D115F6 /* CalendarDateRangePickerViewController.xcconfig */,
+				E19E1ABD7A2732B316809125004FDC01 /* CalendarDateRangePickerViewController-dummy.m */,
+				78DCFAEAC3E321EAD16CF8E9FF264483 /* CalendarDateRangePickerViewController-prefix.pch */,
+				FFC792E20FF538A4CB4361FDDCD75E26 /* CalendarDateRangePickerViewController-umbrella.h */,
+				52DDDC9AD86EC17EBB45E6593DB562E4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CalendarDateRangePickerViewController";
+			sourceTree = "<group>";
+		};
+		ADE2D1C6E5CBECC3DB06CEC394D9A97F /* KWStepper */ = {
+			isa = PBXGroup;
+			children = (
+				92DB619C17704F09A0A39602C7A0DEA7 /* KWStepper.swift */,
+				E1E2D417190CF6A48EC52932B85D1F35 /* KWStepper+Chaining.swift */,
+				7F9C853B065FF8CC0AD78029A4E646C5 /* Support Files */,
+			);
+			name = KWStepper;
+			path = KWStepper;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD785F9D43716764CB3A5B17910A64A2 /* CalendarDateRangePickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8D0410D03AE98D6BCEB81F0BFCF3537E /* CalendarDateRangePickerCell.swift */,
+				EF5A16B000E50BA9891E6CE3953E2073 /* CalendarDateRangePickerHeaderView.swift */,
+				3A25A7C980507990B81E4FE397B84D94 /* CalendarDateRangePickerViewController.swift */,
+				ADBA292E989BB061E57D60F2E985E449 /* Support Files */,
+			);
+			name = CalendarDateRangePickerViewController;
+			path = CalendarDateRangePickerViewController;
+			sourceTree = "<group>";
+		};
+		DDDD4D3CF9BF86A58B36CE5B4D22FD86 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				E3B3036A4A1A6227ACE7B41FDE1FF46A /* SwiftyJSON.swift */,
+				88BE531795F0F2400EBD8374D9AA3950 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		F39223EA8B26071D5875A683396C2BD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D53F23602980E9F0BD69731E6DBC7B4 /* Info.plist */,
+				9F50E71C73715CAB32114E60301CECE0 /* MBRadioCheckboxButton.modulemap */,
+				C688B0145E76AE385B2D0C66C62C5C54 /* MBRadioCheckboxButton.xcconfig */,
+				CC84A92EB337FD9BD0AE08001B914304 /* MBRadioCheckboxButton-dummy.m */,
+				F4E8D3759772C38C5AA59FBF69888F09 /* MBRadioCheckboxButton-prefix.pch */,
+				74D03BD16C66E40D203C619BFFF05CAE /* MBRadioCheckboxButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBRadioCheckboxButton";
+			sourceTree = "<group>";
+		};
+		F85FEDA2BF9B2EFA0C0A0665A8424721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF59BEB51C998180DC25FBC33022192 /* Alamofire.framework */,
+				B41E4596195FE1B765C4DE1EC242B018 /* CalendarDateRangePickerViewController.framework */,
+				EE50645462DBE267C61C14B220758187 /* KWStepper.framework */,
+				A0B4A20C872149AD4418D559426F0D0E /* MBRadioCheckboxButton.framework */,
+				5CCC37894E92C4127724812E3D61E80B /* Pods_MyRealTrip.framework */,
+				0B44E5EC66FE459E76827A24EB563DE3 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE5D9E7DE397186BC31234739834D0C /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				8B2D068A3CC8CD94F9C2BDFBD8173823 /* AFError.swift */,
+				D3FE7B998A17828FDA73394B0D665F3F /* Alamofire.swift */,
+				3A42D418963359B09636DF5E475B03E9 /* DispatchQueue+Alamofire.swift */,
+				39E2FC57C7EE78EF5B35EEF6C17B12AA /* MultipartFormData.swift */,
+				9FEF1B6C1E4E26C50483D01C9E0269E9 /* NetworkReachabilityManager.swift */,
+				23DB07FCA32B6FCAE172FEEA1F30B568 /* Notifications.swift */,
+				DC7092BD89D10E9DAF4A298EA50C3D7A /* ParameterEncoding.swift */,
+				71BDE786367574C81FED2EE670BAFF59 /* Request.swift */,
+				D8ECC061975067FF6445E89D992AF574 /* Response.swift */,
+				C9AFF59065631CC5E4678BA39E2A130F /* ResponseSerialization.swift */,
+				A172B78C183E02DF8A1DA672118B7D50 /* Result.swift */,
+				AF21B77BF1B47BD0EE0292844596891A /* ServerTrustPolicy.swift */,
+				4AE162A93F1D9A95D33C2F56E55B3E7D /* SessionDelegate.swift */,
+				52FB6959F12C9BDC50FF3584B093E2E3 /* SessionManager.swift */,
+				4AD50775FADF540A7C07E75B8ED426CA /* TaskDelegate.swift */,
+				3EFA7FBE27E86912669E5A70A4A72EFE /* Timeline.swift */,
+				5BCF3B36164EAF7605DCD4468843E781 /* Validation.swift */,
+				8CE3E9007F4BFAFB1F7CC00B8A233EF4 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		165BC8095C0E757D2D43CC2E7201C31F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F0E5D9A9204455D4C630C8878B7E8E /* MBRadioCheckboxButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA75A7AC8420EC9CC73E05E6CF4D404 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF5835570046A1607A7E615FCC40F45 /* Pods-MyRealTrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC9B982B53DDBF1D389D8340BB2FF0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42675DB964CF2CC0522EB39DCB5A1858 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE33BC83E6480E0DD4D8C2A803BF1ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4EC50ABC329D5A836D1D94242A58C0 /* CalendarDateRangePickerViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E237D33BB73DE45CA007BB66E5777BC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE787A7DE94E6621F08D277481BE413 /* KWStepper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E942139609380D2DC3D7CD69D1A5E07 /* KWStepper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5FA87534B732BA9BE75AC96008A3E63 /* Build configuration list for PBXNativeTarget "KWStepper" */;
+			buildPhases = (
+				1CC890F1CE34096B03C377994B552270 /* Sources */,
+				4BDCBEE8BD19C642EB12513CE475EBD2 /* Frameworks */,
+				E237D33BB73DE45CA007BB66E5777BC7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KWStepper;
+			productName = KWStepper;
+			productReference = EE50645462DBE267C61C14B220758187 /* KWStepper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CBA1C2622C74B225C4D13AF3A5334CA /* MBRadioCheckboxButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A735FC49C388506A248988DF83DF16F4 /* Build configuration list for PBXNativeTarget "MBRadioCheckboxButton" */;
+			buildPhases = (
+				8D8437F29300C22D9276E0F219EB48FA /* Sources */,
+				D262641FB78FA999F715B9FC142BF8E9 /* Frameworks */,
+				165BC8095C0E757D2D43CC2E7201C31F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBRadioCheckboxButton;
+			productName = MBRadioCheckboxButton;
+			productReference = A0B4A20C872149AD4418D559426F0D0E /* MBRadioCheckboxButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = EDF59BEB51C998180DC25FBC33022192 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F6EA6E60876BF509C484037E487507E /* CalendarDateRangePickerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4BD86E647E7072BCC530A24BE87671 /* Build configuration list for PBXNativeTarget "CalendarDateRangePickerViewController" */;
+			buildPhases = (
+				D9A6DC4AC2188CDE09FD5A9DF3BF2E16 /* Sources */,
+				48E14DB9912A2AD6C4513FCE0FFDE41A /* Frameworks */,
+				9FE33BC83E6480E0DD4D8C2A803BF1ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarDateRangePickerViewController;
+			productName = CalendarDateRangePickerViewController;
+			productReference = B41E4596195FE1B765C4DE1EC242B018 /* CalendarDateRangePickerViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96221D01967F93D4B0C63ACD265CB899 /* Pods-MyRealTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4500E08635E9FEC3B8352AA509D01702 /* Build configuration list for PBXNativeTarget "Pods-MyRealTrip" */;
+			buildPhases = (
+				0782698FA9327D6DF63E3986CB4B3C3D /* Sources */,
+				646C462C15A6FD3FB41356F0101ABDD5 /* Frameworks */,
+				3AA75A7AC8420EC9CC73E05E6CF4D404 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				464C55FCB8EFC9438F086D04CEE8C964 /* PBXTargetDependency */,
+				90BBC3DE7D11B1796AAE87D103409FEB /* PBXTargetDependency */,
+				E228B603B2ADC65AA2D6CFCBA2D1C720 /* PBXTargetDependency */,
+				87635540DE2F86CA3CCB3419234D481B /* PBXTargetDependency */,
+				D9E5A67B923F002CA790E8D021B3A033 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyRealTrip";
+			productName = "Pods-MyRealTrip";
+			productReference = 5CCC37894E92C4127724812E3D61E80B /* Pods_MyRealTrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96F5346458FA93B777A48653D3EA0A7E /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0676A6E53C97840FFE2F29304C00D265 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				E2FDC4F0290632AE5A8569E4BB528480 /* Sources */,
+				CA0BB6E0381553896B1D815AE5490B87 /* Frameworks */,
+				3DC9B982B53DDBF1D389D8340BB2FF0C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 0B44E5EC66FE459E76827A24EB563DE3 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F85FEDA2BF9B2EFA0C0A0665A8424721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				8F6EA6E60876BF509C484037E487507E /* CalendarDateRangePickerViewController */,
+				5E942139609380D2DC3D7CD69D1A5E07 /* KWStepper */,
+				6CBA1C2622C74B225C4D13AF3A5334CA /* MBRadioCheckboxButton */,
+				96221D01967F93D4B0C63ACD265CB899 /* Pods-MyRealTrip */,
+				96F5346458FA93B777A48653D3EA0A7E /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0782698FA9327D6DF63E3986CB4B3C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21636421417B7BB81335D273F332713 /* Pods-MyRealTrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC890F1CE34096B03C377994B552270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9412644A34943B536E2BACBD357B907 /* KWStepper+Chaining.swift in Sources */,
+				5468F9852A4B2988A2B72B625AA86887 /* KWStepper-dummy.m in Sources */,
+				56E21F622F78EBDB43BF942A64BBE732 /* KWStepper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8437F29300C22D9276E0F219EB48FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209286CA12279BEAE19895D4C686AF6 /* CheckboxButton.swift in Sources */,
+				64C04F47B0AF856D32178A3069587E88 /* CheckboxButtonContainer.swift in Sources */,
+				E907F38D91F4D20856AB00DA46F94866 /* CheckboxButtonContainerView.swift in Sources */,
+				4E90C4DE34CC275B156B71B41CD147D0 /* MBRadioCheckboxButton-dummy.m in Sources */,
+				88F146CB93770A016357256566A64233 /* RadioButton.swift in Sources */,
+				A438784BFDBA42434F5DFFECBD6AA107 /* RadioButtonContainer.swift in Sources */,
+				A0E6E94946BAC9EB4F12B2938798A8E9 /* RadioButtonContainerView.swift in Sources */,
+				82083E9CDD1B009B97A94706F766F078 /* RadioCheckboxBaseButton.swift in Sources */,
+				2B0F67BCCD6A2F47C3CC4DE48449A719 /* RadioCheckboxBaseContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A6DC4AC2188CDE09FD5A9DF3BF2E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8004AFC0477281A16BCA1DA511826138 /* CalendarDateRangePickerCell.swift in Sources */,
+				44D9A1B613EBDBD285773A89DC23C128 /* CalendarDateRangePickerHeaderView.swift in Sources */,
+				F3CA961367AE4C71824A872DC4C97FC8 /* CalendarDateRangePickerViewController-dummy.m in Sources */,
+				CA1BC90207ACC04694A1323D0AA64B72 /* CalendarDateRangePickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FDC4F0290632AE5A8569E4BB528480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFA1C73C8B21F1E6E5AA27A7F4EAADF /* SwiftyJSON-dummy.m in Sources */,
+				05C685E11EFED0381F0D77FA15CAD517 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		464C55FCB8EFC9438F086D04CEE8C964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = F237F43BECE616255A5A4FA420CE1E42 /* PBXContainerItemProxy */;
+		};
+		87635540DE2F86CA3CCB3419234D481B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBRadioCheckboxButton;
+			target = 6CBA1C2622C74B225C4D13AF3A5334CA /* MBRadioCheckboxButton */;
+			targetProxy = 30BDC39ED22AED59242FDDF1BF785361 /* PBXContainerItemProxy */;
+		};
+		90BBC3DE7D11B1796AAE87D103409FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CalendarDateRangePickerViewController;
+			target = 8F6EA6E60876BF509C484037E487507E /* CalendarDateRangePickerViewController */;
+			targetProxy = 741AB71C135E5A53ABCD68ACBAB93983 /* PBXContainerItemProxy */;
+		};
+		D9E5A67B923F002CA790E8D021B3A033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 96F5346458FA93B777A48653D3EA0A7E /* SwiftyJSON */;
+			targetProxy = FF728290F62AE90A11338C77DDF570A1 /* PBXContainerItemProxy */;
+		};
+		E228B603B2ADC65AA2D6CFCBA2D1C720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KWStepper;
+			target = 5E942139609380D2DC3D7CD69D1A5E07 /* KWStepper */;
+			targetProxy = 099084177514B446B5FCB5361684EE7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1664192731CF6585FCCF6FB13C75A950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C688B0145E76AE385B2D0C66C62C5C54 /* MBRadioCheckboxButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBRadioCheckboxButton/MBRadioCheckboxButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBRadioCheckboxButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBRadioCheckboxButton/MBRadioCheckboxButton.modulemap";
+				PRODUCT_MODULE_NAME = MBRadioCheckboxButton;
+				PRODUCT_NAME = MBRadioCheckboxButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37A64EAD6B392CE17D8945BFF884BC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB480A93B7D0095FD20AD3DC6EC7C41E /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48024253C1E98F1C38503277ECEBD6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F830D2A4DF65C4CD704B97FD7D115F6 /* CalendarDateRangePickerViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CalendarDateRangePickerViewController/CalendarDateRangePickerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CalendarDateRangePickerViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CalendarDateRangePickerViewController/CalendarDateRangePickerViewController.modulemap";
+				PRODUCT_MODULE_NAME = CalendarDateRangePickerViewController;
+				PRODUCT_NAME = CalendarDateRangePickerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59C01977E5684388BDFB531F14CD543E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B089939765C86E6119DEB8BF72E3B83 /* Pods-MyRealTrip.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyRealTrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C1118C1008449E3C7068D4DA3A0D3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F830D2A4DF65C4CD704B97FD7D115F6 /* CalendarDateRangePickerViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CalendarDateRangePickerViewController/CalendarDateRangePickerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CalendarDateRangePickerViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CalendarDateRangePickerViewController/CalendarDateRangePickerViewController.modulemap";
+				PRODUCT_MODULE_NAME = CalendarDateRangePickerViewController;
+				PRODUCT_NAME = CalendarDateRangePickerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9EA4BB2275A0F85CBCAEB5BD529713B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C688B0145E76AE385B2D0C66C62C5C54 /* MBRadioCheckboxButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBRadioCheckboxButton/MBRadioCheckboxButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBRadioCheckboxButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBRadioCheckboxButton/MBRadioCheckboxButton.modulemap";
+				PRODUCT_MODULE_NAME = MBRadioCheckboxButton;
+				PRODUCT_NAME = MBRadioCheckboxButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A18C9CC7E37563F2891E7DC87F2DE6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E941852B9B83601AE99707CEE2957F56 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A20428244B6B8BD1A33100FCA51F3E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53CA443ACDDF6814EF132C87632B05CF /* Pods-MyRealTrip.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyRealTrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5DC64D15D116DA24B9489C567AF006F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB480A93B7D0095FD20AD3DC6EC7C41E /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B27398810A25A69C4CBDABF3672DF5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF8BA32ED69E55C631013CD6379C1E9 /* KWStepper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KWStepper/KWStepper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KWStepper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KWStepper/KWStepper.modulemap";
+				PRODUCT_MODULE_NAME = KWStepper;
+				PRODUCT_NAME = KWStepper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA7EBF4CC62BB1B44E3074BE6EAC12F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF8BA32ED69E55C631013CD6379C1E9 /* KWStepper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KWStepper/KWStepper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KWStepper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KWStepper/KWStepper.modulemap";
+				PRODUCT_MODULE_NAME = KWStepper;
+				PRODUCT_NAME = KWStepper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA0ADC75B20BB62958101306980460E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E941852B9B83601AE99707CEE2957F56 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0676A6E53C97840FFE2F29304C00D265 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A64EAD6B392CE17D8945BFF884BC1D /* Debug */,
+				A5DC64D15D116DA24B9489C567AF006F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4BD86E647E7072BCC530A24BE87671 /* Build configuration list for PBXNativeTarget "CalendarDateRangePickerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1118C1008449E3C7068D4DA3A0D3D2 /* Debug */,
+				48024253C1E98F1C38503277ECEBD6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0ADC75B20BB62958101306980460E6 /* Debug */,
+				A18C9CC7E37563F2891E7DC87F2DE6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4500E08635E9FEC3B8352AA509D01702 /* Build configuration list for PBXNativeTarget "Pods-MyRealTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20428244B6B8BD1A33100FCA51F3E92 /* Debug */,
+				59C01977E5684388BDFB531F14CD543E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A735FC49C388506A248988DF83DF16F4 /* Build configuration list for PBXNativeTarget "MBRadioCheckboxButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1664192731CF6585FCCF6FB13C75A950 /* Debug */,
+				9EA4BB2275A0F85CBCAEB5BD529713B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5FA87534B732BA9BE75AC96008A3E63 /* Build configuration list for PBXNativeTarget "KWStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27398810A25A69C4CBDABF3672DF5D1 /* Debug */,
+				DA7EBF4CC62BB1B44E3074BE6EAC12F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
