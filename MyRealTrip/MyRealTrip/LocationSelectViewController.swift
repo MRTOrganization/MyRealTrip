@@ -8,11 +8,16 @@
 
 import UIKit
 
+protocol sendBackDelegate {
+    func dataRecived(data: String)
+}
 class LocationSelectViewController: UIViewController {
     
     @IBOutlet weak var locationTableView: UITableView!
     let arrName: [String] = ["오사카", "후쿠오카", "라스베가스", "도쿄", "로마", "타이페이" ]
-
+    
+    var delegate: sendBackDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -65,6 +70,11 @@ extension LocationSelectViewController: UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("OK")
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "selectedData"), object: nil, userInfo: ["select":arrName[indexPath.row]])
+        
+        self.dismiss(animated: true, completion: nil)
+        
     }
     
     

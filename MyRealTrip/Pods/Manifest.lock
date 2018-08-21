@@ -1,16 +1,20 @@
 PODS:
   - Alamofire (4.7.3)
+  - CalendarDateRangePickerViewController (0.1.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
+  - CalendarDateRangePickerViewController (~> 0.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - CalendarDateRangePickerViewController
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CalendarDateRangePickerViewController: 9e82a36a21ad7338f4e21a314469bfabe1f738fb
 
-PODFILE CHECKSUM: c62c3cede58174e9e9458d1f47736127663eee92
+PODFILE CHECKSUM: 7b37dcf55dbb6477ccaefb7b079c2aa6ccd44977
 
 COCOAPODS: 1.5.3

@@ -14,10 +14,6 @@ class HotelWebViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        guard let url = URL(string: "https://www.apple.com") else { return }
-        let safariViewController = SFSafariViewController(url: url)
-        present(safariViewController, animated: true, completion: nil)
-        
         }
     
     

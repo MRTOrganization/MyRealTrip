@@ -8,7 +8,14 @@
 
 import UIKit
 
-class HotelButtonView: UIViewController {
+class HotelButtonView: UIViewController, SendDataDelegate {
+    func sendData(data: String) {
+        locationLabel.text = data
+    }
+    
+    
+   
+    
     
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var locationButton: UIButton!
@@ -16,24 +23,33 @@ class HotelButtonView: UIViewController {
     @IBOutlet weak var calenderButton: UIButton!
     @IBOutlet weak var personLabel: UILabel!
     @IBOutlet weak var personButton: UIButton!
+
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "HotelButtonView" {
+            let viewController : LodgingViewController = segue.destination as! LodgingViewController
+            viewController.delegate = self
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.layer.cornerRadius = 4
-        view.layer.masksToBounds = true
         
-        locationButton.setTitle("", for: .normal)
-        calenderButton.setTitle("", for: .normal)
-        personButton.setTitle("", for: .normal)
         
-        locationLabel.text = "여행지 또는 숙소명"
-        locationLabel.textColor = UIColor.gray
+                locationButton.setTitle("", for: .normal)
+                calenderButton.setTitle("", for: .normal)
+                personButton.setTitle("", for: .normal)
+        
+                locationLabel.text = "여행지 또는 숙소명"
+                locationLabel.textColor = UIColor.gray
+       
+     
+        
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
+
+ 
     
     @IBAction func didTapLocationButton(_ sender: UIButton) {
     }

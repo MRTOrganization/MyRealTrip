@@ -127,6 +127,13 @@
                                                     </segue>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Oq-Yj-O4o">
+                                                <rect key="frame" x="162" y="836" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -158,11 +165,27 @@
                         <outlet property="bannerButton" destination="YD4-Dx-zJx" id="IFl-BR-OOb"/>
                         <outlet property="hotelSearchButton" destination="CSO-7k-gtu" id="vpX-zU-G28"/>
                         <outlet property="selectButtonView" destination="Fxf-NN-cD0" id="RyZ-T2-Ai6"/>
+                        <outlet property="testlabel" destination="4Oq-Yj-O4o" id="dgb-Le-JyT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ieh-0C-AwS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2194.4000000000001" y="-26.600985221674879"/>
+        </scene>
+        <!--Calender Select View Controller-->
+        <scene sceneID="Vqf-f1-coZ">
+            <objects>
+                <viewController storyboardIdentifier="CalenderSelectViewController" id="3fR-vg-bye" customClass="CalenderSelectViewController" customModule="MyRealTrip" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dsH-vn-6Eh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="2FN-S0-35U"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ihH-Iq-ueK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3134" y="-206"/>
         </scene>
         <!--Location Select View Controller-->
         <scene sceneID="U4d-K1-SGT">
@@ -202,7 +225,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dv6-qR-NOY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3122.4000000000001" y="-397.53694581280791"/>
+            <point key="canvasLocation" x="3134" y="-898"/>
         </scene>
         <!--Park Select View Controller-->
         <scene sceneID="msV-45-RL0">
@@ -217,7 +240,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ngk-oC-2Lc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4218" y="-388"/>
+            <point key="canvasLocation" x="4295" y="-574"/>
         </scene>
         <!--Personal Select View Controller-->
         <scene sceneID="ZTE-JX-jsa">
@@ -386,7 +409,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ib6-AC-KSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3122" y="255"/>
+            <point key="canvasLocation" x="3121" y="471"/>
         </scene>
         <!--Hotel Web View Controller-->
         <scene sceneID="LEU-ig-nrw">
@@ -402,7 +425,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tbz-pW-vr9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3122" y="924"/>
+            <point key="canvasLocation" x="3121" y="1157"/>
         </scene>
     </scenes>
     <resources>
