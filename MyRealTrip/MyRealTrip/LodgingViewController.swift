@@ -26,6 +26,7 @@ class LodgingViewController: UIViewController {
     
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -47,8 +48,8 @@ class LodgingViewController: UIViewController {
 //        SelectButtonView.addSubview(hotelButtonView)
 //        SelectButtonView.addSubview(parkButtonView)
         
-        hotelSearchButton.backgroundColor = UIColor.cyan
-        hotelSearchButton.titleLabel?.textColor = UIColor.white
+//        hotelSearchButton.backgroundColor = UIColor.cyan
+//        hotelSearchButton.titleLabel?.textColor = UIColor.white
 //        locationView.layer.borderWidth = lineWidth
 //        calenderView.layer.borderWidth = lineWidth
 //        personView.layer.borderWidth = lineWidth
@@ -91,13 +92,16 @@ class LodgingViewController: UIViewController {
     }
     
     @IBAction func didTapPersonButton(_ sender: UIButton) {
-        print("Person OK")        
+        print("Person OK")
+        let storyboard = UIStoryboard(name: "LodgingView", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "PersonalSelectViewController")
+        present(vc, animated: true, completion: nil)
     }
     
     @IBAction func didTapSearchButton(_ sender: UIButton) {
         print("Search OK")
-        
-        guard let url = URL(string: "https://www.booking.com/") else { return }
+      
+        guard let url = URL(string: "https://www.booking.com") else { return }
         let safariViewController = SFSafariViewController(url: url)
         present(safariViewController, animated: true, completion: nil)
         

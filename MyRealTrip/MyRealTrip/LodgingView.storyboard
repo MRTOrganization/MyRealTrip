@@ -116,7 +116,10 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSO-7k-gtu">
                                                 <rect key="frame" x="30" y="400" width="315" height="48"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="호텔 검색하기"/>
+                                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="호텔 검색하기">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="didTapSearchButton:" destination="Qm8-IG-GQG" eventType="touchUpInside" id="eHj-jy-wVj"/>
                                                     <segue destination="KkR-cn-dCL" kind="popoverPresentation" popoverAnchorView="CSO-7k-gtu" id="pA9-Od-Yf0">
@@ -296,44 +299,42 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkq-kf-fwe">
-                                        <rect key="frame" x="296" y="66" width="22" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkq-kf-fwe">
+                                        <rect key="frame" x="292" y="63" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="plus_1"/>
                                         <connections>
                                             <action selector="didTapAddAudultButton:" destination="pD1-xo-h7j" eventType="touchUpInside" id="bYQ-TZ-EUr"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CmF-sS-eGQ">
-                                        <rect key="frame" x="296" y="132" width="22" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CmF-sS-eGQ">
+                                        <rect key="frame" x="292" y="128" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="plus_1"/>
                                         <connections>
                                             <action selector="didTapAddKidButton:" destination="pD1-xo-h7j" eventType="touchUpInside" id="L9a-90-3Fi"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ms9-ts-yGA">
-                                        <rect key="frame" x="296" y="252" width="22" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSG-bw-o5Z">
+                                        <rect key="frame" x="223" y="63" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <action selector="didTapAddRoomButton:" destination="pD1-xo-h7j" eventType="touchUpInside" id="Ukl-0i-uaz"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSG-bw-o5Z">
-                                        <rect key="frame" x="227" y="67" width="22" height="22"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="minus_1"/>
                                         <connections>
                                             <action selector="didTapMinusAudultButton:" destination="pD1-xo-h7j" eventType="touchUpInside" id="qO8-g5-eHA"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frf-Nb-Eg1">
-                                        <rect key="frame" x="227" y="133" width="22" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frf-Nb-Eg1">
+                                        <rect key="frame" x="223" y="128" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="minus_1"/>
                                         <connections>
                                             <action selector="didTapMinusKidButton:" destination="pD1-xo-h7j" eventType="touchUpInside" id="DOo-5r-1zq"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vb-ly-jBC">
-                                        <rect key="frame" x="227" y="253" width="22" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2vb-ly-jBC">
+                                        <rect key="frame" x="223" y="243" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="minus_1"/>
                                         <connections>
                                             <action selector="didTapMinusRoomButton:" destination="pD1-xo-h7j" eventType="touchUpInside" id="507-Ah-hbS"/>
                                         </connections>
@@ -359,6 +360,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ms9-ts-yGA">
+                                        <rect key="frame" x="292" y="243" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="plus_1"/>
+                                        <connections>
+                                            <action selector="didTapAddRoomButton:" destination="pD1-xo-h7j" eventType="touchUpInside" id="Ukl-0i-uaz"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -399,5 +408,7 @@
     <resources>
         <image name="Lodging" width="270" height="196"/>
         <image name="LodgingBanner" width="280" height="116"/>
+        <image name="minus_1" width="40" height="40"/>
+        <image name="plus_1" width="40" height="40"/>
     </resources>
 </document>
