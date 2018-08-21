@@ -38,7 +38,7 @@ class LoginViewController: UIViewController {
     }
 
     @IBAction func loginTestButton(_ sender: FBSDKLoginButton) {
-        print(FBSDKAccessToken.current().tokenString)
+//        print(FBSDKAccessToken.current().tokenString)
     }
     
 //    @IBAction func didTapEmailLoginButton(_ sender: UIButton) {
