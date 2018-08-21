@@ -18,17 +18,13 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var signUpPassWordTextField: UITextField!
     @IBOutlet weak var signUpRePassWordTextField: UITextField!
     
-    @IBOutlet weak var allConsentButton: UIButton!
-    @IBOutlet weak var signupConditionsButton: UIButton!
-    @IBOutlet weak var personalInformationCollectionButton: UIButton!
-    @IBOutlet weak var locationConditionButton: UIButton!
-    @IBOutlet weak var marketingConditionButton: UIButton!
-    @IBOutlet weak var emailConditionButton: UIButton!
-    @IBOutlet weak var smsConditionButton: UIButton!
-    @IBOutlet weak var pushConditionButton: UIButton!
+    @IBOutlet weak var signUpButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        signUpButton.layer.cornerRadius = 2
+        signUpButton.layer.masksToBounds = true
      
     }
     

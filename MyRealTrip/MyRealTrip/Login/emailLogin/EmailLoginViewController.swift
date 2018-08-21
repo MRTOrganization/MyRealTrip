@@ -14,9 +14,15 @@ class EmailLoginViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    @IBOutlet weak var emailLoginButton: UIButton!
+    @IBOutlet weak var forgetPasswordButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        emailLoginButton.layer.cornerRadius = 2
+        emailLoginButton.layer.masksToBounds = true
+        
         // Do any additional setup after loading the view.
     }
 

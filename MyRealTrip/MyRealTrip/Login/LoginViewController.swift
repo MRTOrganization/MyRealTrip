@@ -12,8 +12,21 @@ import FBSDKLoginKit
 
 class LoginViewController: UIViewController {
     
+    @IBOutlet weak var emailLoginButton: UIButton!
+    @IBOutlet weak var signUpButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        emailLoginButton.layer.cornerRadius = 2
+        emailLoginButton.layer.masksToBounds = true
+        
+        signUpButton.layer.cornerRadius = 2
+        signUpButton.layer.borderWidth = 0.5
+        signUpButton.layer.masksToBounds = true
+        
+        
+        
         
         let loginButton = FBSDKLoginButton()
         
