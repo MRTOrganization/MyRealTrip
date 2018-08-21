@@ -206,6 +206,51 @@ class LodgingViewController: UIViewController {
         print("did Tap Hotel Person Button")
     }
     
+    @IBAction func didTapFirstButton(_ sender: UIButton) {
+        print("did Tap First Button")
+        let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
+        let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkSelectViewController")
+        present(viewController, animated: true, completion: nil)        
+    }
+    
+    @IBAction func didTapSecondButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func didTapThirdButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func didTapFourthButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func didTapFifthButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func didTapSixthButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func didTapSeventhButton(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func didTapEighthButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func didTapNinthButton(_ sender: UIButton) {
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     @IBAction func didTapSearchButton(_ sender: UIButton) {
         print("did Tap Search Button")
         
