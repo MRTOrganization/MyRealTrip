@@ -1,16 +1,17 @@
 //
-//  LocationListTableViewCell.swift
+//  LocationSelectTableViewCell.swift
 //  MyRealTrip
 //
-//  Created by H on 2018. 8. 21..
+//  Created by H on 2018. 8. 22..
 //  Copyright © 2018년 sanghyuk. All rights reserved.
 //
 
 import UIKit
 
-class LocationListTableViewCell: UITableViewCell {
-    @IBOutlet weak var locationName: UILabel!
-    @IBOutlet weak var locationSubName: UILabel!
+class LocationSelectTableViewCell: UITableViewCell {
+
+    @IBOutlet weak var locationSelectXibImage: UIImageView!
+    @IBOutlet weak var locationSelectXibLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

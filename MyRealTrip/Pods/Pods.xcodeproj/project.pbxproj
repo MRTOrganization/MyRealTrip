@@ -7,118 +7,149 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08BB2B5181A5749D68C9EE91E0717F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A01C360B39C8358521867CCF336F77F /* Timeline.swift */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5150021B8A6270E8733FC075B8177AEE /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E4EC50ABC329D5A836D1D94242A58C0 /* CalendarDateRangePickerViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A12D0680B65E7F853512C05DE4CE42 /* CalendarDateRangePickerViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF8DE278845E964D3E7D87EC667FAED /* TaskDelegate.swift */; };
-		44D9A1B613EBDBD285773A89DC23C128 /* CalendarDateRangePickerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB562CD0A1F166A42B7303A8B9867AC /* CalendarDateRangePickerHeaderView.swift */; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B6FE222FBAD63E4041B244304381DD /* Request.swift */; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54C2722FDAC090EFAC26C054722A7CC /* DispatchQueue+Alamofire.swift */; };
-		61C814A1018C3ECD8D01C49099EEFF0C /* Pods-MyRealTrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E0967557E3CA7B0FAFA46BDC4A051B /* Pods-MyRealTrip-dummy.m */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682FB209060924B31E5F12DE1A69AB7 /* ServerTrustPolicy.swift */; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CC9AD7A558BA0D1BF49D06F18C06C /* SessionDelegate.swift */; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7533DD124F1BFADB71503B95441ED40 /* Result.swift */; };
-		8004AFC0477281A16BCA1DA511826138 /* CalendarDateRangePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958E299FA56E14A4F47F1CD93936804 /* CalendarDateRangePickerCell.swift */; };
+		01B27FC9177EE975C7A01F452ECBB6DC /* ParallaxHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A06FC351227B149A97BE0C077D672EA /* ParallaxHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FADB898DE00224562E48A0E24A7B701 /* ParallaxHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1292EF9FB8F2650614CF0F75B04234 /* ParallaxHeader-dummy.m */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA62FD812C4B2CE67351E7C5B6AEBA6B /* Timeline.swift */; };
+		17FFFFB3DFD3D36679B897AFD3F531B1 /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C11ADF3A7C93F01554D09CEF3172F15 /* UIScrollView+ParallaxHeader.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2E193C35A76F1F668056B83603F23F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E4EC50ABC329D5A836D1D94242A58C0 /* CalendarDateRangePickerViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3785D7FC47D956077028DCCC6334AB40 /* CalendarDateRangePickerViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		268301DF62F023A7E3C812BFFCFE4159 /* Pods-MyRealTrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E0967557E3CA7B0FAFA46BDC4A051B /* Pods-MyRealTrip-dummy.m */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F24C5C650B34B3F4B4A9FEFCD989C /* TaskDelegate.swift */; };
+		3796B2E74AE09DF82D07CEEC46CB53F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		44D9A1B613EBDBD285773A89DC23C128 /* CalendarDateRangePickerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063499B3B9E49BF996E63379B5BB8DA3 /* CalendarDateRangePickerHeaderView.swift */; };
+		48319A1A7592D903AB70C07D95D9BE1A /* Pods-MyRealTrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C88CF380D3C51CFC10A68525AFF0BA90 /* Pods-MyRealTrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBBAA60903ADD4E18FCD2939748DDBC /* Request.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1FB20A60C5F15508EFFFF67F2BDCB1 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17472D6C36E38F953768EFCA135AFB6F /* ServerTrustPolicy.swift */; };
+		677F77D6EEEA10639768AA1FB5ED7C84 /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6C813355ABA3EE1D94C167C3F98449 /* ParallaxHeaderMode.swift */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B3B29CC4A28E1D5D8F6EECAB6646E7 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA517A4B30DC22509B1CC2E2D96EF0B /* Result.swift */; };
+		8004AFC0477281A16BCA1DA511826138 /* CalendarDateRangePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3285FDD32303B59D5A432638D7C4815A /* CalendarDateRangePickerCell.swift */; };
 		834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		98B5A766AC1B8D9F43B1F124B978AA72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78FF2BAE57672A0EED70BFCF72C8040 /* AFError.swift */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFFFFF9D8C74EC26C0F5D776E76637A /* NetworkReachabilityManager.swift */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47F5E8A4D2DA906E957F80F6BFA647 /* Alamofire-dummy.m */; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A9D4A11F7B3C41EEC62DD67ECE1945 /* SessionManager.swift */; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BDB7BBE719158ADAEA3B5BFB9E2A56 /* MultipartFormData.swift */; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A66D6298C13527289A505CEBE25EEB /* Validation.swift */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86169C1FF54DAD6DF2DA612F567F8079 /* ParameterEncoding.swift */; };
-		CA1BC90207ACC04694A1323D0AA64B72 /* CalendarDateRangePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD76A8107E8C64469FACBDDD95DD50 /* CalendarDateRangePickerViewController.swift */; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB90BCB34044640E765157060D64BA /* Response.swift */; };
-		ED8E1F1717C47BA193CFF53967B871FF /* Pods-MyRealTrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C88CF380D3C51CFC10A68525AFF0BA90 /* Pods-MyRealTrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F357F49E608D46A243F0EECFCC40B85 /* Notifications.swift */; };
-		F3CA961367AE4C71824A872DC4C97FC8 /* CalendarDateRangePickerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4D0562CC8A32E0311654935AE0F192 /* CalendarDateRangePickerViewController-dummy.m */; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AB76C512BADA8B8DE41AD5D79E0753 /* ResponseSerialization.swift */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3B5935F41E6A991660B8A1785E51B9 /* Alamofire.swift */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758F24C30CAEB3B54F82E8E4D2FDF158 /* AFError.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710E81F7E1BBCB2D84B7114B3F11E3D /* NetworkReachabilityManager.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F909B668209855E9C5C8539D58ACC6C2 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D921E388CF16EE8BB357887785A44 /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3249C88292457AE9ED04301286D34B99 /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5997DB753B8415D2A347CE7F9340CC7 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B26C44941AF5894F3219127C5E630 /* ParameterEncoding.swift */; };
+		C100758E55B388B3F0752F8DF64008A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CA1BC90207ACC04694A1323D0AA64B72 /* CalendarDateRangePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB28D490106583DCB39215299BEB28B5 /* CalendarDateRangePickerViewController.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7790DBA7C7FF59CE7B361278A54451A4 /* Response.swift */; };
+		D17E667432A26A786DE09C0310A04041 /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C22D1CE2C78D73D4160214A08EBCE58 /* ParallaxHeader.swift */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4877475A7F39BAD3D7BF2209DF55DA /* Notifications.swift */; };
+		F3CA961367AE4C71824A872DC4C97FC8 /* CalendarDateRangePickerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C9DE4C1603C13D8603F3E214410BBC /* CalendarDateRangePickerViewController-dummy.m */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A42721161A23B20CE188F7308FDD45A /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7218F8253E83AC82B14DF69C7594E5 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		63AFEACA84B7201072BAC184572D7BCB /* PBXContainerItemProxy */ = {
+		ABCCE4E0C37C840C716CBE2B348C15A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8F6EA6E60876BF509C484037E487507E;
-			remoteInfo = CalendarDateRangePickerViewController;
+			remoteGlobalIDString = 0EADC98135BDFF218FA8EEA855120208;
+			remoteInfo = ParallaxHeader;
 		};
-		6E3778145A10913D897B1627259B45F3 /* PBXContainerItemProxy */ = {
+		B6A6A36C4430E9009B5D6F2337FBC649 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
 		};
+		D3578251C1BCEA71E51D12BA7D9D4F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F6EA6E60876BF509C484037E487507E;
+			remoteInfo = CalendarDateRangePickerViewController;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0462FAF0DA14A54D9F0BF9933B170670 /* Pods-MyRealTrip-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyRealTrip-resources.sh"; sourceTree = "<group>"; };
-		07AB76C512BADA8B8DE41AD5D79E0753 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		07DB90BCB34044640E765157060D64BA /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		08A66D6298C13527289A505CEBE25EEB /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		1682FB209060924B31E5F12DE1A69AB7 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		2A01C360B39C8358521867CCF336F77F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		30AF727F03FB109B541AF437293CDDAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		063499B3B9E49BF996E63379B5BB8DA3 /* CalendarDateRangePickerHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDateRangePickerHeaderView.swift; path = CalendarDateRangePickerViewController/Classes/CalendarDateRangePickerHeaderView.swift; sourceTree = "<group>"; };
+		0C11ADF3A7C93F01554D09CEF3172F15 /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+ParallaxHeader.swift"; path = "ParallaxHeader/UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
+		0D5092349A7676BE7A2E83B6516F1B33 /* ParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ParallaxHeader.framework; path = ParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D638E4D8818ADFE8FC3B3401F3727B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17472D6C36E38F953768EFCA135AFB6F /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		1A5D921E388CF16EE8BB357887785A44 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		1C1292EF9FB8F2650614CF0F75B04234 /* ParallaxHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParallaxHeader-dummy.m"; sourceTree = "<group>"; };
+		2BD15118DD049E313103F24D138D70B7 /* ParallaxHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxHeader-prefix.pch"; sourceTree = "<group>"; };
+		3249C88292457AE9ED04301286D34B99 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		3285FDD32303B59D5A432638D7C4815A /* CalendarDateRangePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDateRangePickerCell.swift; path = CalendarDateRangePickerViewController/Classes/CalendarDateRangePickerCell.swift; sourceTree = "<group>"; };
 		342DD46CA714E842A31803E456721FFC /* Pods-MyRealTrip-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyRealTrip-frameworks.sh"; sourceTree = "<group>"; };
-		37A9D4A11F7B3C41EEC62DD67ECE1945 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		3710E81F7E1BBCB2D84B7114B3F11E3D /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		3785D7FC47D956077028DCCC6334AB40 /* CalendarDateRangePickerViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarDateRangePickerViewController-umbrella.h"; sourceTree = "<group>"; };
 		3AC109D1CB322F0D7B3A3C3A92E38188 /* Pods-MyRealTrip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyRealTrip-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3BFBAE94B291BCF0050B92B007ED71CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		408580A740EA5610B7627A6E6E30282F /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		5150021B8A6270E8733FC075B8177AEE /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		3DE0C6CE5D92B02069D271BC47805E0B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		426F24C5C650B34B3F4B4A9FEFCD989C /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		4A06FC351227B149A97BE0C077D672EA /* ParallaxHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParallaxHeader-umbrella.h"; sourceTree = "<group>"; };
+		51FC34DC3AA68FCDD33B73300CD397A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534B26C44941AF5894F3219127C5E630 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		53CA443ACDDF6814EF132C87632B05CF /* Pods-MyRealTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRealTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		55C9DE4C1603C13D8603F3E214410BBC /* CalendarDateRangePickerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CalendarDateRangePickerViewController-dummy.m"; sourceTree = "<group>"; };
+		56855B9EB86084B382768C6B68DDAC4D /* CalendarDateRangePickerViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CalendarDateRangePickerViewController.framework; path = CalendarDateRangePickerViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5A3CC9AD7A558BA0D1BF49D06F18C06C /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		5B7218F8253E83AC82B14DF69C7594E5 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		5E7291FA38A3BC072C04B63B5A916A4A /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		65A6F24811C61A2A30A546354D628C4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65E0967557E3CA7B0FAFA46BDC4A051B /* Pods-MyRealTrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyRealTrip-dummy.m"; sourceTree = "<group>"; };
-		69B5E06BF868AE595614FB4FB38D71FE /* CalendarDateRangePickerViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CalendarDateRangePickerViewController.framework; path = CalendarDateRangePickerViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BFFFFF9D8C74EC26C0F5D776E76637A /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		75AE98DB84FBCA566E98700A3630116D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		774E5FB55A0C980C5FC0E784E65DCA7E /* CalendarDateRangePickerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarDateRangePickerViewController-prefix.pch"; sourceTree = "<group>"; };
-		84A12D0680B65E7F853512C05DE4CE42 /* CalendarDateRangePickerViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarDateRangePickerViewController-umbrella.h"; sourceTree = "<group>"; };
-		854291411A393AFA09AABB249575E597 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		86169C1FF54DAD6DF2DA612F567F8079 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		86BDB7BBE719158ADAEA3B5BFB9E2A56 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		8958E299FA56E14A4F47F1CD93936804 /* CalendarDateRangePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDateRangePickerCell.swift; path = CalendarDateRangePickerViewController/Classes/CalendarDateRangePickerCell.swift; sourceTree = "<group>"; };
-		8ADD76A8107E8C64469FACBDDD95DD50 /* CalendarDateRangePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDateRangePickerViewController.swift; path = CalendarDateRangePickerViewController/Classes/CalendarDateRangePickerViewController.swift; sourceTree = "<group>"; };
-		8CB562CD0A1F166A42B7303A8B9867AC /* CalendarDateRangePickerHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDateRangePickerHeaderView.swift; path = CalendarDateRangePickerViewController/Classes/CalendarDateRangePickerHeaderView.swift; sourceTree = "<group>"; };
+		6A1FB20A60C5F15508EFFFF67F2BDCB1 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		6A42721161A23B20CE188F7308FDD45A /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		6C22D1CE2C78D73D4160214A08EBCE58 /* ParallaxHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxHeader.swift; path = ParallaxHeader/ParallaxHeader.swift; sourceTree = "<group>"; };
+		758F24C30CAEB3B54F82E8E4D2FDF158 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		7790DBA7C7FF59CE7B361278A54451A4 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		77BC78B883C3BF9E74A7A8531630FA72 /* CalendarDateRangePickerViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CalendarDateRangePickerViewController.modulemap; sourceTree = "<group>"; };
+		7DBBAA60903ADD4E18FCD2939748DDBC /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		8ABAE23E101D0DD0F137429E58785A72 /* ParallaxHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ParallaxHeader.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B089939765C86E6119DEB8BF72E3B83 /* Pods-MyRealTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRealTrip.release.xcconfig"; sourceTree = "<group>"; };
-		9F357F49E608D46A243F0EECFCC40B85 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		A78FF2BAE57672A0EED70BFCF72C8040 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		AEF8DE278845E964D3E7D87EC667FAED /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		B0767B3EDCCF90AA674B69671165B181 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3B3B6364CFBF1AF47DA05B71D1C73E9 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		B7533DD124F1BFADB71503B95441ED40 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		BBE96A4E7DECBFB979795A212936BB4D /* CalendarDateRangePickerViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CalendarDateRangePickerViewController.modulemap; sourceTree = "<group>"; };
-		C1337FD23C72B5F4DABF1CF333E1E06D /* Pods_MyRealTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyRealTrip.framework; path = "Pods-MyRealTrip.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5997DB753B8415D2A347CE7F9340CC7 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		AA62FD812C4B2CE67351E7C5B6AEBA6B /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		AD67C1D25C49D35E0047DC3994F933D3 /* Pods_MyRealTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyRealTrip.framework; path = "Pods-MyRealTrip.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA517A4B30DC22509B1CC2E2D96EF0B /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		BC6C813355ABA3EE1D94C167C3F98449 /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxHeaderMode.swift; path = ParallaxHeader/ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		BF4877475A7F39BAD3D7BF2209DF55DA /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		C397E845D76A1AAD4FA563BEB955CE3E /* Pods-MyRealTrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyRealTrip.modulemap"; sourceTree = "<group>"; };
+		C6331720732ED48BF649AA2498D9B8D7 /* ParallaxHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParallaxHeader.xcconfig; sourceTree = "<group>"; };
 		C88CF380D3C51CFC10A68525AFF0BA90 /* Pods-MyRealTrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyRealTrip-umbrella.h"; sourceTree = "<group>"; };
-		CBDA3A63C9B3A503072F8A856F801F8B /* CalendarDateRangePickerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalendarDateRangePickerViewController.xcconfig; sourceTree = "<group>"; };
-		DC3B5935F41E6A991660B8A1785E51B9 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		DF47F5E8A4D2DA906E957F80F6BFA647 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		C8EF64E53506F1DF9DA955896B547D2E /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		C94D544480F12D77587D9FA81DC67BF1 /* CalendarDateRangePickerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarDateRangePickerViewController-prefix.pch"; sourceTree = "<group>"; };
+		D4B3B29CC4A28E1D5D8F6EECAB6646E7 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		DB28D490106583DCB39215299BEB28B5 /* CalendarDateRangePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDateRangePickerViewController.swift; path = CalendarDateRangePickerViewController/Classes/CalendarDateRangePickerViewController.swift; sourceTree = "<group>"; };
 		E4F730AECFE3503324B58E7E2D1F343E /* Pods-MyRealTrip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyRealTrip-acknowledgements.plist"; sourceTree = "<group>"; };
-		E6B6FE222FBAD63E4041B244304381DD /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		EC4D0562CC8A32E0311654935AE0F192 /* CalendarDateRangePickerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CalendarDateRangePickerViewController-dummy.m"; sourceTree = "<group>"; };
-		F54C2722FDAC090EFAC26C054722A7CC /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		ED227EC4D5005E1482C2C1E6243CD09B /* CalendarDateRangePickerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalendarDateRangePickerViewController.xcconfig; sourceTree = "<group>"; };
+		F875E3994E03915E76CD7F7158181C0A /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		F909B668209855E9C5C8539D58ACC6C2 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		FE2E193C35A76F1F668056B83603F23F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		20FC94FD0B34E3222EB4FADE7D847DC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3796B2E74AE09DF82D07CEEC46CB53F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36A14AD6AD7B078BDFAB7557C65A2F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C100758E55B388B3F0752F8DF64008A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48E14DB9912A2AD6C4513FCE0FFDE41A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				98B5A766AC1B8D9F43B1F124B978AA72 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		882FA491BC77F11211D277AA452234F9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08BB2B5181A5749D68C9EE91E0717F58 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +182,18 @@
 			path = "Target Support Files/Pods-MyRealTrip";
 			sourceTree = "<group>";
 		};
+		25232F5445ED192992505F065B736F10 /* CalendarDateRangePickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3285FDD32303B59D5A432638D7C4815A /* CalendarDateRangePickerCell.swift */,
+				063499B3B9E49BF996E63379B5BB8DA3 /* CalendarDateRangePickerHeaderView.swift */,
+				DB28D490106583DCB39215299BEB28B5 /* CalendarDateRangePickerViewController.swift */,
+				A2F122525DBB15456C9609EBB06BCF77 /* Support Files */,
+			);
+			name = CalendarDateRangePickerViewController;
+			path = CalendarDateRangePickerViewController;
+			sourceTree = "<group>";
+		};
 		2871D4A0521A548827C94502D4BCDE8E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,16 +202,58 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5510D25DC258832D1DED5F63E610D6B8 /* CalendarDateRangePickerViewController */ = {
+		2ABCF87754A86E2D137DE0B8593FF109 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8958E299FA56E14A4F47F1CD93936804 /* CalendarDateRangePickerCell.swift */,
-				8CB562CD0A1F166A42B7303A8B9867AC /* CalendarDateRangePickerHeaderView.swift */,
-				8ADD76A8107E8C64469FACBDDD95DD50 /* CalendarDateRangePickerViewController.swift */,
-				837D0646237CF6D7961AC86AAAA7CAA7 /* Support Files */,
+				51FC34DC3AA68FCDD33B73300CD397A0 /* Info.plist */,
+				8ABAE23E101D0DD0F137429E58785A72 /* ParallaxHeader.modulemap */,
+				C6331720732ED48BF649AA2498D9B8D7 /* ParallaxHeader.xcconfig */,
+				1C1292EF9FB8F2650614CF0F75B04234 /* ParallaxHeader-dummy.m */,
+				2BD15118DD049E313103F24D138D70B7 /* ParallaxHeader-prefix.pch */,
+				4A06FC351227B149A97BE0C077D672EA /* ParallaxHeader-umbrella.h */,
 			);
-			name = CalendarDateRangePickerViewController;
-			path = CalendarDateRangePickerViewController;
+			name = "Support Files";
+			path = "../Target Support Files/ParallaxHeader";
+			sourceTree = "<group>";
+		};
+		2BF77F2348EF2DC56AD30031FE3B2299 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF64E53506F1DF9DA955896B547D2E /* Alamofire.modulemap */,
+				F875E3994E03915E76CD7F7158181C0A /* Alamofire.xcconfig */,
+				F909B668209855E9C5C8539D58ACC6C2 /* Alamofire-dummy.m */,
+				5E7291FA38A3BC072C04B63B5A916A4A /* Alamofire-prefix.pch */,
+				FE2E193C35A76F1F668056B83603F23F /* Alamofire-umbrella.h */,
+				11D638E4D8818ADFE8FC3B3401F3727B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		3D74CABCE6B8F7A4E15D09E748DDBC55 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				758F24C30CAEB3B54F82E8E4D2FDF158 /* AFError.swift */,
+				5B7218F8253E83AC82B14DF69C7594E5 /* Alamofire.swift */,
+				6A1FB20A60C5F15508EFFFF67F2BDCB1 /* DispatchQueue+Alamofire.swift */,
+				3249C88292457AE9ED04301286D34B99 /* MultipartFormData.swift */,
+				3710E81F7E1BBCB2D84B7114B3F11E3D /* NetworkReachabilityManager.swift */,
+				BF4877475A7F39BAD3D7BF2209DF55DA /* Notifications.swift */,
+				534B26C44941AF5894F3219127C5E630 /* ParameterEncoding.swift */,
+				7DBBAA60903ADD4E18FCD2939748DDBC /* Request.swift */,
+				7790DBA7C7FF59CE7B361278A54451A4 /* Response.swift */,
+				6A42721161A23B20CE188F7308FDD45A /* ResponseSerialization.swift */,
+				ADA517A4B30DC22509B1CC2E2D96EF0B /* Result.swift */,
+				17472D6C36E38F953768EFCA135AFB6F /* ServerTrustPolicy.swift */,
+				D4B3B29CC4A28E1D5D8F6EECAB6646E7 /* SessionDelegate.swift */,
+				1A5D921E388CF16EE8BB357887785A44 /* SessionManager.swift */,
+				426F24C5C650B34B3F4B4A9FEFCD989C /* TaskDelegate.swift */,
+				AA62FD812C4B2CE67351E7C5B6AEBA6B /* Timeline.swift */,
+				A5997DB753B8415D2A347CE7F9340CC7 /* Validation.swift */,
+				2BF77F2348EF2DC56AD30031FE3B2299 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -179,55 +264,62 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		631F637DA66C76B28C39BED23D0D0B1D /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				A78FF2BAE57672A0EED70BFCF72C8040 /* AFError.swift */,
-				DC3B5935F41E6A991660B8A1785E51B9 /* Alamofire.swift */,
-				F54C2722FDAC090EFAC26C054722A7CC /* DispatchQueue+Alamofire.swift */,
-				86BDB7BBE719158ADAEA3B5BFB9E2A56 /* MultipartFormData.swift */,
-				6BFFFFF9D8C74EC26C0F5D776E76637A /* NetworkReachabilityManager.swift */,
-				9F357F49E608D46A243F0EECFCC40B85 /* Notifications.swift */,
-				86169C1FF54DAD6DF2DA612F567F8079 /* ParameterEncoding.swift */,
-				E6B6FE222FBAD63E4041B244304381DD /* Request.swift */,
-				07DB90BCB34044640E765157060D64BA /* Response.swift */,
-				07AB76C512BADA8B8DE41AD5D79E0753 /* ResponseSerialization.swift */,
-				B7533DD124F1BFADB71503B95441ED40 /* Result.swift */,
-				1682FB209060924B31E5F12DE1A69AB7 /* ServerTrustPolicy.swift */,
-				5A3CC9AD7A558BA0D1BF49D06F18C06C /* SessionDelegate.swift */,
-				37A9D4A11F7B3C41EEC62DD67ECE1945 /* SessionManager.swift */,
-				AEF8DE278845E964D3E7D87EC667FAED /* TaskDelegate.swift */,
-				2A01C360B39C8358521867CCF336F77F /* Timeline.swift */,
-				08A66D6298C13527289A505CEBE25EEB /* Validation.swift */,
-				D6CABCC628088192B59C17D3543B2EEE /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				DE680DDB3FCB25E0D9251A90596852A2 /* Pods */,
-				E9DEABCC3459AAF316CE87A7BCC356CD /* Products */,
+				A956069A344889EAA88C00BBD137F9E8 /* Pods */,
+				B1E8B9BF4408F10A22294D1DF02D33B8 /* Products */,
 				2871D4A0521A548827C94502D4BCDE8E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		837D0646237CF6D7961AC86AAAA7CAA7 /* Support Files */ = {
+		842B284E02EF239C222327310253344D /* ParallaxHeader */ = {
 			isa = PBXGroup;
 			children = (
-				BBE96A4E7DECBFB979795A212936BB4D /* CalendarDateRangePickerViewController.modulemap */,
-				CBDA3A63C9B3A503072F8A856F801F8B /* CalendarDateRangePickerViewController.xcconfig */,
-				EC4D0562CC8A32E0311654935AE0F192 /* CalendarDateRangePickerViewController-dummy.m */,
-				774E5FB55A0C980C5FC0E784E65DCA7E /* CalendarDateRangePickerViewController-prefix.pch */,
-				84A12D0680B65E7F853512C05DE4CE42 /* CalendarDateRangePickerViewController-umbrella.h */,
-				30AF727F03FB109B541AF437293CDDAD /* Info.plist */,
+				6C22D1CE2C78D73D4160214A08EBCE58 /* ParallaxHeader.swift */,
+				BC6C813355ABA3EE1D94C167C3F98449 /* ParallaxHeaderMode.swift */,
+				0C11ADF3A7C93F01554D09CEF3172F15 /* UIScrollView+ParallaxHeader.swift */,
+				2ABCF87754A86E2D137DE0B8593FF109 /* Support Files */,
+			);
+			name = ParallaxHeader;
+			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		A2F122525DBB15456C9609EBB06BCF77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77BC78B883C3BF9E74A7A8531630FA72 /* CalendarDateRangePickerViewController.modulemap */,
+				ED227EC4D5005E1482C2C1E6243CD09B /* CalendarDateRangePickerViewController.xcconfig */,
+				55C9DE4C1603C13D8603F3E214410BBC /* CalendarDateRangePickerViewController-dummy.m */,
+				C94D544480F12D77587D9FA81DC67BF1 /* CalendarDateRangePickerViewController-prefix.pch */,
+				3785D7FC47D956077028DCCC6334AB40 /* CalendarDateRangePickerViewController-umbrella.h */,
+				65A6F24811C61A2A30A546354D628C4B /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CalendarDateRangePickerViewController";
+			sourceTree = "<group>";
+		};
+		A956069A344889EAA88C00BBD137F9E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D74CABCE6B8F7A4E15D09E748DDBC55 /* Alamofire */,
+				25232F5445ED192992505F065B736F10 /* CalendarDateRangePickerViewController */,
+				842B284E02EF239C222327310253344D /* ParallaxHeader */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1E8B9BF4408F10A22294D1DF02D33B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DE0C6CE5D92B02069D271BC47805E0B /* Alamofire.framework */,
+				56855B9EB86084B382768C6B68DDAC4D /* CalendarDateRangePickerViewController.framework */,
+				0D5092349A7676BE7A2E83B6516F1B33 /* ParallaxHeader.framework */,
+				AD67C1D25C49D35E0047DC3994F933D3 /* Pods_MyRealTrip.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -238,42 +330,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D6CABCC628088192B59C17D3543B2EEE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B3B3B6364CFBF1AF47DA05B71D1C73E9 /* Alamofire.modulemap */,
-				408580A740EA5610B7627A6E6E30282F /* Alamofire.xcconfig */,
-				DF47F5E8A4D2DA906E957F80F6BFA647 /* Alamofire-dummy.m */,
-				854291411A393AFA09AABB249575E597 /* Alamofire-prefix.pch */,
-				5150021B8A6270E8733FC075B8177AEE /* Alamofire-umbrella.h */,
-				B0767B3EDCCF90AA674B69671165B181 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		DE680DDB3FCB25E0D9251A90596852A2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				631F637DA66C76B28C39BED23D0D0B1D /* Alamofire */,
-				5510D25DC258832D1DED5F63E610D6B8 /* CalendarDateRangePickerViewController */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E9DEABCC3459AAF316CE87A7BCC356CD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				75AE98DB84FBCA566E98700A3630116D /* Alamofire.framework */,
-				69B5E06BF868AE595614FB4FB38D71FE /* CalendarDateRangePickerViewController.framework */,
-				C1337FD23C72B5F4DABF1CF333E1E06D /* Pods_MyRealTrip.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1E41AF2C1D503A9531163EF10FF75683 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48319A1A7592D903AB70C07D95D9BE1A /* Pods-MyRealTrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA605FFF53AE8E277089DB533EFE0EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B27FC9177EE975C7A01F452ECBB6DC /* ParallaxHeader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9FE33BC83E6480E0DD4D8C2A803BF1ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,34 +365,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1A12C62A1FB52DE0070DD952AB6356E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED8E1F1717C47BA193CFF53967B871FF /* Pods-MyRealTrip-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5936FFBCC7093FCA77A265EB21859FB3 /* Pods-MyRealTrip */ = {
+		0EADC98135BDFF218FA8EEA855120208 /* ParallaxHeader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29E0553C787A38C90402C9DA46C8302A /* Build configuration list for PBXNativeTarget "Pods-MyRealTrip" */;
+			buildConfigurationList = 3595877C8D4131A0FCEF793FFA5F800C /* Build configuration list for PBXNativeTarget "ParallaxHeader" */;
 			buildPhases = (
-				307F8D0A3E5128C78573B2096A5A1A60 /* Sources */,
-				882FA491BC77F11211D277AA452234F9 /* Frameworks */,
-				F1A12C62A1FB52DE0070DD952AB6356E /* Headers */,
+				6F10C260EF59BE3C7FE5AFEC986E0DF9 /* Sources */,
+				36A14AD6AD7B078BDFAB7557C65A2F47 /* Frameworks */,
+				9FA605FFF53AE8E277089DB533EFE0EA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC7D49400E6EEDDCC5FE81FAC1E977CF /* PBXTargetDependency */,
-				090477DCC14DAA2F693FD693FAC66304 /* PBXTargetDependency */,
 			);
-			name = "Pods-MyRealTrip";
-			productName = "Pods-MyRealTrip";
-			productReference = C1337FD23C72B5F4DABF1CF333E1E06D /* Pods_MyRealTrip.framework */;
+			name = ParallaxHeader;
+			productName = ParallaxHeader;
+			productReference = 0D5092349A7676BE7A2E83B6516F1B33 /* ParallaxHeader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -334,7 +399,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 75AE98DB84FBCA566E98700A3630116D /* Alamofire.framework */;
+			productReference = 3DE0C6CE5D92B02069D271BC47805E0B /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8F6EA6E60876BF509C484037E487507E /* CalendarDateRangePickerViewController */ = {
@@ -351,7 +416,27 @@
 			);
 			name = CalendarDateRangePickerViewController;
 			productName = CalendarDateRangePickerViewController;
-			productReference = 69B5E06BF868AE595614FB4FB38D71FE /* CalendarDateRangePickerViewController.framework */;
+			productReference = 56855B9EB86084B382768C6B68DDAC4D /* CalendarDateRangePickerViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3449C13AF342EC15E2DEB8C835D5294 /* Pods-MyRealTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B836F0355CC46A78646A095B76EE0EA /* Build configuration list for PBXNativeTarget "Pods-MyRealTrip" */;
+			buildPhases = (
+				F347BBF908A3E2AD0D5F0A0748DC9E7E /* Sources */,
+				20FC94FD0B34E3222EB4FADE7D847DC9 /* Frameworks */,
+				1E41AF2C1D503A9531163EF10FF75683 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAC4D57D5B8F3BBEEFE6FD15AEEFCF2 /* PBXTargetDependency */,
+				8E8EBC0539295E5CFD755C1D619663C7 /* PBXTargetDependency */,
+				5B14B237523C1E037E4340D64C1E8D00 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyRealTrip";
+			productName = "Pods-MyRealTrip";
+			productReference = AD67C1D25C49D35E0047DC3994F933D3 /* Pods_MyRealTrip.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -371,26 +456,19 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E9DEABCC3459AAF316CE87A7BCC356CD /* Products */;
+			productRefGroup = B1E8B9BF4408F10A22294D1DF02D33B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
 				8F6EA6E60876BF509C484037E487507E /* CalendarDateRangePickerViewController */,
-				5936FFBCC7093FCA77A265EB21859FB3 /* Pods-MyRealTrip */,
+				0EADC98135BDFF218FA8EEA855120208 /* ParallaxHeader */,
+				F3449C13AF342EC15E2DEB8C835D5294 /* Pods-MyRealTrip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		307F8D0A3E5128C78573B2096A5A1A60 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61C814A1018C3ECD8D01C49099EEFF0C /* Pods-MyRealTrip-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		32B9974868188C4803318E36329C87FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,6 +494,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F10C260EF59BE3C7FE5AFEC986E0DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FADB898DE00224562E48A0E24A7B701 /* ParallaxHeader-dummy.m in Sources */,
+				D17E667432A26A786DE09C0310A04041 /* ParallaxHeader.swift in Sources */,
+				677F77D6EEEA10639768AA1FB5ED7C84 /* ParallaxHeaderMode.swift in Sources */,
+				17FFFFB3DFD3D36679B897AFD3F531B1 /* UIScrollView+ParallaxHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9A6DC4AC2188CDE09FD5A9DF3BF2E16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,25 +516,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F347BBF908A3E2AD0D5F0A0748DC9E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268301DF62F023A7E3C812BFFCFE4159 /* Pods-MyRealTrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		090477DCC14DAA2F693FD693FAC66304 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CalendarDateRangePickerViewController;
-			target = 8F6EA6E60876BF509C484037E487507E /* CalendarDateRangePickerViewController */;
-			targetProxy = 63AFEACA84B7201072BAC184572D7BCB /* PBXContainerItemProxy */;
-		};
-		DC7D49400E6EEDDCC5FE81FAC1E977CF /* PBXTargetDependency */ = {
+		4CAC4D57D5B8F3BBEEFE6FD15AEEFCF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = 6E3778145A10913D897B1627259B45F3 /* PBXContainerItemProxy */;
+			targetProxy = B6A6A36C4430E9009B5D6F2337FBC649 /* PBXContainerItemProxy */;
+		};
+		5B14B237523C1E037E4340D64C1E8D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParallaxHeader;
+			target = 0EADC98135BDFF218FA8EEA855120208 /* ParallaxHeader */;
+			targetProxy = ABCCE4E0C37C840C716CBE2B348C15A4 /* PBXContainerItemProxy */;
+		};
+		8E8EBC0539295E5CFD755C1D619663C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CalendarDateRangePickerViewController;
+			target = 8F6EA6E60876BF509C484037E487507E /* CalendarDateRangePickerViewController */;
+			targetProxy = D3578251C1BCEA71E51D12BA7D9D4F9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2787BDC71BD93485A9DA110EBC4BA4A1 /* Debug */ = {
+		398FEA1EE8D781B6331C83A4D739DC16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53CA443ACDDF6814EF132C87632B05CF /* Pods-MyRealTrip.debug.xcconfig */;
 			buildSettings = {
@@ -487,7 +590,7 @@
 		};
 		48024253C1E98F1C38503277ECEBD6E7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBDA3A63C9B3A503072F8A856F801F8B /* CalendarDateRangePickerViewController.xcconfig */;
+			baseConfigurationReference = ED227EC4D5005E1482C2C1E6243CD09B /* CalendarDateRangePickerViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -524,7 +627,7 @@
 		};
 		5C1118C1008449E3C7068D4DA3A0D3D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBDA3A63C9B3A503072F8A856F801F8B /* CalendarDateRangePickerViewController.xcconfig */;
+			baseConfigurationReference = ED227EC4D5005E1482C2C1E6243CD09B /* CalendarDateRangePickerViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -623,7 +726,7 @@
 		};
 		A18C9CC7E37563F2891E7DC87F2DE6CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 408580A740EA5610B7627A6E6E30282F /* Alamofire.xcconfig */;
+			baseConfigurationReference = F875E3994E03915E76CD7F7158181C0A /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -716,43 +819,7 @@
 			};
 			name = Release;
 		};
-		EA0ADC75B20BB62958101306980460E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 408580A740EA5610B7627A6E6E30282F /* Alamofire.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F1F0020906F0CE428530A8FE48B3DFC4 /* Release */ = {
+		C996E25614C2459CC8CC29D934F3132C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B089939765C86E6119DEB8BF72E3B83 /* Pods-MyRealTrip.release.xcconfig */;
 			buildSettings = {
@@ -792,18 +859,118 @@
 			};
 			name = Release;
 		};
+		D2D02C3BAA90E4779632343BF4BAFD72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6331720732ED48BF649AA2498D9B8D7 /* ParallaxHeader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParallaxHeader/ParallaxHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParallaxHeader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ParallaxHeader/ParallaxHeader.modulemap";
+				PRODUCT_MODULE_NAME = ParallaxHeader;
+				PRODUCT_NAME = ParallaxHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAFEAC6B42732507D8978B8CADDB2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6331720732ED48BF649AA2498D9B8D7 /* ParallaxHeader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParallaxHeader/ParallaxHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParallaxHeader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ParallaxHeader/ParallaxHeader.modulemap";
+				PRODUCT_MODULE_NAME = ParallaxHeader;
+				PRODUCT_NAME = ParallaxHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA0ADC75B20BB62958101306980460E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F875E3994E03915E76CD7F7158181C0A /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29E0553C787A38C90402C9DA46C8302A /* Build configuration list for PBXNativeTarget "Pods-MyRealTrip" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2787BDC71BD93485A9DA110EBC4BA4A1 /* Debug */,
-				F1F0020906F0CE428530A8FE48B3DFC4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2B4BD86E647E7072BCC530A24BE87671 /* Build configuration list for PBXNativeTarget "CalendarDateRangePickerViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -822,11 +989,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3595877C8D4131A0FCEF793FFA5F800C /* Build configuration list for PBXNativeTarget "ParallaxHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D02C3BAA90E4779632343BF4BAFD72 /* Debug */,
+				DAFEAC6B42732507D8978B8CADDB2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA0ADC75B20BB62958101306980460E6 /* Debug */,
 				A18C9CC7E37563F2891E7DC87F2DE6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B836F0355CC46A78646A095B76EE0EA /* Build configuration list for PBXNativeTarget "Pods-MyRealTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398FEA1EE8D781B6331C83A4D739DC16 /* Debug */,
+				C996E25614C2459CC8CC29D934F3132C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
