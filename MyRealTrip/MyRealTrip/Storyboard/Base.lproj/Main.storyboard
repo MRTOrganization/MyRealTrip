@@ -27,17 +27,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Okq-wC-Kki">
-                                <rect key="frame" x="65" y="296" width="56" height="30"/>
+                                <rect key="frame" x="0.0" y="279" width="92" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="투어 티켓"/>
+                                <state key="normal" title="버튼"/>
                                 <connections>
                                     <segue destination="RK0-rs-ee9" kind="show" id="XSb-dn-5MP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDt-TH-tDw">
-                                <rect key="frame" x="241" y="296" width="39" height="30"/>
+                                <rect key="frame" x="100" y="279" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="항공권"/>
+                                <state key="normal" title="버튼"/>
                                 <connections>
                                     <segue destination="87c-xK-07t" kind="show" id="ECm-51-pdZ"/>
                                 </connections>
@@ -49,6 +49,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="468" y="33.990147783251231"/>
         </scene>
         <!--AirlineTicketView-->
         <scene sceneID="wrd-Dt-Rdg">

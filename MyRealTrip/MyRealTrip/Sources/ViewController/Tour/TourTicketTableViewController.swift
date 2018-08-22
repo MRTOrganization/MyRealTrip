@@ -42,10 +42,6 @@ class TourTicketTableViewController: UITableViewController {
         
     }
     
-    @IBAction func backButton(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
-    }
-    
     
     
     func updateHeaderView() {

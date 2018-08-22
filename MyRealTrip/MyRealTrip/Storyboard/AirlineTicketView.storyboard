@@ -298,14 +298,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="grn-th-wgX"/>
                     </view>
-                    <navigationItem key="navigationItem" title="항공권" id="80J-42-Nfq">
-                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="stop" id="dJZ-gR-EwC">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <connections>
-                                <action selector="backButton:" destination="XCT-ni-jNE" id="2HQ-rX-HaV"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="항공권" id="80J-42-Nfq"/>
                     <connections>
                         <outlet property="dateLabel" destination="3e7-ea-pES" id="14A-tX-AW4"/>
                         <outlet property="departureCdLabel" destination="zJ5-Nx-6dQ" id="5f4-RT-YRJ"/>

@@ -24,10 +24,6 @@ class AirlineTicketViewController: UIViewController, WKNavigationDelegate {
     @IBOutlet private weak var destinationCdLabel: UILabel!
     @IBOutlet private weak var destinationPlaceHolderLabel: UILabel!
     
-    @IBAction func backButton(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
-    }
-    
     var depart_date: String = ""
     var return_date: String = ""
     
