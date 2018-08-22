@@ -269,7 +269,7 @@ class LodgingViewController: UIViewController {
         print("did Tap Fifth Button")
         
         let singletonData: SingletonUrlData = SingletonUrlData.data
-        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Japan/Osaka/"
+        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Spain/Barcelona/"
         
         let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
         let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkSelectViewController")
@@ -306,7 +306,7 @@ class LodgingViewController: UIViewController {
         print("did Tap Eighth Button")
         
         let singletonData: SingletonUrlData = SingletonUrlData.data
-        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Japan/Osaka/"
+        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Spain/Madrid/"
         
         let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
         let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkSelectViewController")
@@ -373,7 +373,7 @@ extension LodgingViewController: CalendarDateRangePickerViewControllerDelegate {
     func didTapDoneWithDateRange(startDate: Date!, endDate: Date!) {
         dismiss(animated: true)
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
+        dateFormatter.dateFormat = "EEE, M, d, yyyy"
         hotelCalenderLabel.text = dateFormatter.string(from: startDate) + " - " + dateFormatter.string(from: endDate)
     }
 

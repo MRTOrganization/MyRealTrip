@@ -24,6 +24,8 @@ class TableViewCellCountData {
 
 class ParkSelectViewController: UIViewController {
     
+    var count = 0
+    
     struct Park: Codable {
         var pk: Int
         var name: String
@@ -87,6 +89,10 @@ class ParkSelectViewController: UIViewController {
     @IBAction func didTapBackButton(_ sender: UIButton) {
         dismiss(animated: true)
     }
+    
+    deinit {
+        TableViewCellCountData.data.count = 0
+    }
 }
 
 
@@ -99,9 +105,13 @@ extension ParkSelectViewController: UITableViewDelegate, UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "ParkSelectCell", for: indexPath) as! ParkSelectTableViewCell
         
+//        print(jsonArr)
+        
         cell.parkNameLabel.text = jsonArr[indexPath.row].name
         cell.priceLabel.text = jsonArr[indexPath.row].price
         cell.reviewCountLabel.text = jsonArr[indexPath.row].comments
+        let jsonUrl = URL(string: jsonArr[indexPath.row].thumbnail)
+        cell.thumbnailImage.kf.setImage(with: jsonUrl)
         
         return cell
         
@@ -110,10 +120,15 @@ extension ParkSelectViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 150
     }
-//    
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        <#code#>
-//    }
-//    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("did Select Row At")
+        
+        let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
+        let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkDetailViewController")
+        present(viewController, animated: true, completion: nil)
+        
+    }
+    
 }
 

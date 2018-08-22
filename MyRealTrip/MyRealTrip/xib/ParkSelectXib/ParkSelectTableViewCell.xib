@@ -51,13 +51,6 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfk-6v-qHN">
-                        <rect key="frame" x="149" y="89" width="191" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                 </subviews>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
@@ -65,7 +58,6 @@
                 <outlet property="parkNameLabel" destination="WZn-hN-InY" id="7Pt-BP-Pjk"/>
                 <outlet property="priceLabel" destination="bTs-xB-NUz" id="i73-CQ-Akh"/>
                 <outlet property="reviewCountLabel" destination="fAo-bn-Lvy" id="GI0-nr-rmf"/>
-                <outlet property="supplyerNameLabel" destination="vfk-6v-qHN" id="YKG-uI-3M4"/>
                 <outlet property="thumbnailImage" destination="2pW-HH-F96" id="hPz-Hg-PMy"/>
             </connections>
             <point key="canvasLocation" x="99" y="108"/>
