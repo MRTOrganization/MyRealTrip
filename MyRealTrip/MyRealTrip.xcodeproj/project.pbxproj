@@ -27,7 +27,6 @@
 		304689FA211D9B4800C5809D /* UIAlertController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304689F9211D9B4800C5809D /* UIAlertController+Helper.swift */; };
 		30527C0D2126935B000F17DF /* SetDestinationPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30527C0C2126935B000F17DF /* SetDestinationPopupViewController.swift */; };
 		30527C0F21269374000F17DF /* SetDestinationPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30527C0E21269374000F17DF /* SetDestinationPopup.storyboard */; };
-		30527C112126AFED000F17DF /* AirlineTicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30527C102126AFED000F17DF /* AirlineTicketModel.swift */; };
 		3091C9552110151200C48CE8 /* AirlineTicketView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3091C9542110151200C48CE8 /* AirlineTicketView.storyboard */; };
 		3091C95721101C6900C48CE8 /* AirlineTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091C95621101C6900C48CE8 /* AirlineTicketViewController.swift */; };
 		30E0399C212C010700D53BDF /* AirlineTicketSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E0399B212C010700D53BDF /* AirlineTicketSearchViewController.swift */; };
@@ -58,7 +57,6 @@
 		304689F9211D9B4800C5809D /* UIAlertController+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Helper.swift"; sourceTree = "<group>"; };
 		30527C0C2126935B000F17DF /* SetDestinationPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDestinationPopupViewController.swift; sourceTree = "<group>"; };
 		30527C0E21269374000F17DF /* SetDestinationPopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetDestinationPopup.storyboard; sourceTree = "<group>"; };
-		30527C102126AFED000F17DF /* AirlineTicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineTicketModel.swift; sourceTree = "<group>"; };
 		3091C9542110151200C48CE8 /* AirlineTicketView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AirlineTicketView.storyboard; sourceTree = "<group>"; };
 		3091C95621101C6900C48CE8 /* AirlineTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineTicketViewController.swift; sourceTree = "<group>"; };
 		30E0399B212C010700D53BDF /* AirlineTicketSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineTicketSearchViewController.swift; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 				3091C9542110151200C48CE8 /* AirlineTicketView.storyboard */,
 				3091C95621101C6900C48CE8 /* AirlineTicketViewController.swift */,
 				30E0399B212C010700D53BDF /* AirlineTicketSearchViewController.swift */,
-				30527C102126AFED000F17DF /* AirlineTicketModel.swift */,
 				304689F2211D874600C5809D /* SetPeoplePopup.storyboard */,
 				304689F5211D89D200C5809D /* SetPeoplePopupViewController.swift */,
 				301E136F2125683B00782892 /* SetSeatGradePopup.storyboard */,
@@ -287,7 +284,6 @@
 				301E137421256DC600782892 /* RadioButtonContainer.swift in Sources */,
 				3091C95721101C6900C48CE8 /* AirlineTicketViewController.swift in Sources */,
 				301E13832125950200782892 /* SetDeparturePopupViewController.swift in Sources */,
-				30527C112126AFED000F17DF /* AirlineTicketModel.swift in Sources */,
 				30527C0D2126935B000F17DF /* SetDestinationPopupViewController.swift in Sources */,
 				30E0399C212C010700D53BDF /* AirlineTicketSearchViewController.swift in Sources */,
 				301E13722125686B00782892 /* SetSeatGradePopup.swift in Sources */,

@@ -24,14 +24,14 @@ class AirlineTicketSearchViewController: UIViewController, WKNavigationDelegate 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("did load")
+        print("search View did load")
         
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("will appear")
+        print("search View will appear")
         print("받은 데이터 : \(searchParams)")
         searchAirlineTicket()
     }

@@ -33,7 +33,7 @@ public class CalendarDateRangePickerViewController: UICollectionViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Select Dates"
+        self.title = "날짜 선택"
         
         collectionView?.dataSource = self
         collectionView?.delegate = self
@@ -50,8 +50,8 @@ public class CalendarDateRangePickerViewController: UICollectionViewController {
             maximumDate = Calendar.current.date(byAdding: .year, value: 3, to: minimumDate)
         }
         
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(CalendarDateRangePickerViewController.didTapCancel))
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(CalendarDateRangePickerViewController.didTapDone))
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "취소", style: .plain, target: self, action: #selector(CalendarDateRangePickerViewController.didTapCancel))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "왼료", style: .done, target: self, action: #selector(CalendarDateRangePickerViewController.didTapDone))
         self.navigationItem.rightBarButtonItem?.isEnabled = selectedStartDate != nil && selectedEndDate != nil
     }
     

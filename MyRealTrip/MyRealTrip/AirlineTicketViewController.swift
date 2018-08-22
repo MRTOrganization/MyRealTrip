@@ -142,16 +142,19 @@ class AirlineTicketViewController: UIViewController, WKNavigationDelegate {
             ]
         
         let popUpVC = UIStoryboard(name: "AirlineTicketView", bundle: nil).instantiateViewController(withIdentifier: "AirlineTicketSearchViewController") as! AirlineTicketSearchViewController
+        // 데이터 전송
         popUpVC.searchParams = searchParams
-        
-        self.navigationController?.pushViewController(popUpVC, animated: true)
-        NotificationCenter.default.post(name: NSNotification.Name.init("searchParams"), object: nil, userInfo: searchParams)
         print("보낸 데이터 : \(searchParams)")
         
-//        "origin": "인천",
-//        "destination": "라스베가스",
-//        "depart_date": "2018-08-30",
-//        "return_date": "2018-09-04"
+        self.navigationController?.pushViewController(popUpVC, animated: true)
+        //NotificationCenter.default.post(name: NSNotification.Name.init("searchParams"), object: nil, userInfo: searchParams)
+        
+        /* 검색 데이터 형식
+        "origin": "인천",
+        "destination": "라스베가스",
+        "depart_date": "2018-08-30",
+        "return_date": "2018-09-04"
+        */
         
     }
 }
@@ -179,7 +182,7 @@ extension AirlineTicketViewController : CalendarDateRangePickerViewControllerDel
     
 }
 
-// MARK: -
+// MARK: - Inspectable Option
 extension UIView {
     @IBInspectable var cornerRadius: CGFloat {
         get {
