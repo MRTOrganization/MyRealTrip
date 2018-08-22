@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07D6D1C4210EF02500D464D7 /* LodgingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */; };
 		301E13702125683B00782892 /* SetSeatGradePopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301E136F2125683B00782892 /* SetSeatGradePopup.storyboard */; };
 		301E13722125686B00782892 /* SetSeatGradePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E13712125686B00782892 /* SetSeatGradePopup.swift */; };
 		301E137421256DC600782892 /* RadioButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E137321256DC600782892 /* RadioButtonContainer.swift */; };
@@ -30,11 +29,41 @@
 		3091C9552110151200C48CE8 /* AirlineTicketView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3091C9542110151200C48CE8 /* AirlineTicketView.storyboard */; };
 		3091C95721101C6900C48CE8 /* AirlineTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091C95621101C6900C48CE8 /* AirlineTicketViewController.swift */; };
 		30E0399C212C010700D53BDF /* AirlineTicketSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E0399B212C010700D53BDF /* AirlineTicketSearchViewController.swift */; };
+		30E039AC212D694600D53BDF /* urlList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039AA212D694600D53BDF /* urlList.swift */; };
+		30E039AD212D694600D53BDF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039AB212D694600D53BDF /* Constants.swift */; };
+		30E039B2212D695200D53BDF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039AE212D695200D53BDF /* Card.swift */; };
+		30E039B3212D695200D53BDF /* TourTicketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039AF212D695200D53BDF /* TourTicketList.swift */; };
+		30E039B4212D695200D53BDF /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039B0212D695200D53BDF /* CardModel.swift */; };
+		30E039B5212D695200D53BDF /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039B1212D695200D53BDF /* ProductModel.swift */; };
+		30E039BA212D695D00D53BDF /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039B6212D695D00D53BDF /* ImageService.swift */; };
+		30E039BB212D695D00D53BDF /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 30E039B7212D695D00D53BDF /* data.json */; };
+		30E039BC212D695D00D53BDF /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039B8212D695D00D53BDF /* Network.swift */; };
+		30E039BD212D695D00D53BDF /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 30E039B9212D695D00D53BDF /* sample.json */; };
+		30E039C2212D696B00D53BDF /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039BE212D696B00D53BDF /* FirstCollectionViewCell.swift */; };
+		30E039C3212D696B00D53BDF /* SecondCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E039BF212D696B00D53BDF /* SecondCollectionViewCell.xib */; };
+		30E039C4212D696B00D53BDF /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039C0212D696B00D53BDF /* SecondCollectionViewCell.swift */; };
+		30E039C5212D696B00D53BDF /* FirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E039C1212D696B00D53BDF /* FirstCollectionViewCell.xib */; };
+		30E039C8212D697200D53BDF /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E039C6212D697200D53BDF /* CardCollectionViewCell.xib */; };
+		30E039C9212D697200D53BDF /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039C7212D697200D53BDF /* CardCollectionViewCell.swift */; };
+		30E039CE212D697B00D53BDF /* ADTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E039CA212D697B00D53BDF /* ADTableViewCell.xib */; };
+		30E039CF212D697B00D53BDF /* ADTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039CB212D697B00D53BDF /* ADTableViewCell.swift */; };
+		30E039D0212D697B00D53BDF /* FourthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039CC212D697B00D53BDF /* FourthTableViewCell.swift */; };
+		30E039D1212D697B00D53BDF /* FourthTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E039CD212D697B00D53BDF /* FourthTableViewCell.xib */; };
+		30E039D6212D698D00D53BDF /* WishlistCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E039D2212D698D00D53BDF /* WishlistCollectionViewCell.xib */; };
+		30E039D7212D698D00D53BDF /* TravelDestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039D3212D698D00D53BDF /* TravelDestinationTableViewCell.swift */; };
+		30E039D8212D698D00D53BDF /* TravelDestinationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E039D4212D698D00D53BDF /* TravelDestinationTableViewCell.xib */; };
+		30E039D9212D698D00D53BDF /* WishlistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039D5212D698D00D53BDF /* WishlistCollectionViewCell.swift */; };
+		30E039DC212D69B700D53BDF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039DA212D69B700D53BDF /* SearchViewController.swift */; };
+		30E039DD212D69B700D53BDF /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039DB212D69B700D53BDF /* WishListViewController.swift */; };
+		30E039E2212D69BF00D53BDF /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039DE212D69BF00D53BDF /* SearchBarViewController.swift */; };
+		30E039E3212D69BF00D53BDF /* TourTicketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039DF212D69BF00D53BDF /* TourTicketTableViewController.swift */; };
+		30E039E4212D69BF00D53BDF /* exampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039E0212D69BF00D53BDF /* exampleViewController.swift */; };
+		30E039E5212D69BF00D53BDF /* TourCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E039E1212D69BF00D53BDF /* TourCollectionViewController.swift */; };
+		30E039E7212D6A8B00D53BDF /* Tour.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E039E6212D6A8B00D53BDF /* Tour.storyboard */; };
 		F5EA791628240DDD7F02C034 /* Pods_MyRealTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0872BF166D0AB869094EB58C /* Pods_MyRealTrip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LodgingView.storyboard; sourceTree = "<group>"; };
 		0872BF166D0AB869094EB58C /* Pods_MyRealTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRealTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		301E136F2125683B00782892 /* SetSeatGradePopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetSeatGradePopup.storyboard; sourceTree = "<group>"; };
 		301E13712125686B00782892 /* SetSeatGradePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSeatGradePopup.swift; sourceTree = "<group>"; };
@@ -60,6 +89,37 @@
 		3091C9542110151200C48CE8 /* AirlineTicketView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AirlineTicketView.storyboard; sourceTree = "<group>"; };
 		3091C95621101C6900C48CE8 /* AirlineTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineTicketViewController.swift; sourceTree = "<group>"; };
 		30E0399B212C010700D53BDF /* AirlineTicketSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineTicketSearchViewController.swift; sourceTree = "<group>"; };
+		30E039AA212D694600D53BDF /* urlList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = urlList.swift; sourceTree = "<group>"; };
+		30E039AB212D694600D53BDF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30E039AE212D695200D53BDF /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		30E039AF212D695200D53BDF /* TourTicketList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourTicketList.swift; sourceTree = "<group>"; };
+		30E039B0212D695200D53BDF /* CardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		30E039B1212D695200D53BDF /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		30E039B6212D695D00D53BDF /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		30E039B7212D695D00D53BDF /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		30E039B8212D695D00D53BDF /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		30E039B9212D695D00D53BDF /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		30E039BE212D696B00D53BDF /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		30E039BF212D696B00D53BDF /* SecondCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondCollectionViewCell.xib; sourceTree = "<group>"; };
+		30E039C0212D696B00D53BDF /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		30E039C1212D696B00D53BDF /* FirstCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstCollectionViewCell.xib; sourceTree = "<group>"; };
+		30E039C6212D697200D53BDF /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
+		30E039C7212D697200D53BDF /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		30E039CA212D697B00D53BDF /* ADTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADTableViewCell.xib; sourceTree = "<group>"; };
+		30E039CB212D697B00D53BDF /* ADTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADTableViewCell.swift; sourceTree = "<group>"; };
+		30E039CC212D697B00D53BDF /* FourthTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthTableViewCell.swift; sourceTree = "<group>"; };
+		30E039CD212D697B00D53BDF /* FourthTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthTableViewCell.xib; sourceTree = "<group>"; };
+		30E039D2212D698D00D53BDF /* WishlistCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WishlistCollectionViewCell.xib; sourceTree = "<group>"; };
+		30E039D3212D698D00D53BDF /* TravelDestinationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelDestinationTableViewCell.swift; sourceTree = "<group>"; };
+		30E039D4212D698D00D53BDF /* TravelDestinationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelDestinationTableViewCell.xib; sourceTree = "<group>"; };
+		30E039D5212D698D00D53BDF /* WishlistCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishlistCollectionViewCell.swift; sourceTree = "<group>"; };
+		30E039DA212D69B700D53BDF /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		30E039DB212D69B700D53BDF /* WishListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
+		30E039DE212D69BF00D53BDF /* SearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		30E039DF212D69BF00D53BDF /* TourTicketTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourTicketTableViewController.swift; sourceTree = "<group>"; };
+		30E039E0212D69BF00D53BDF /* exampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exampleViewController.swift; sourceTree = "<group>"; };
+		30E039E1212D69BF00D53BDF /* TourCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourCollectionViewController.swift; sourceTree = "<group>"; };
+		30E039E6212D6A8B00D53BDF /* Tour.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tour.storyboard; sourceTree = "<group>"; };
 		4FE3DBCF08C05D8015D10E82 /* Pods-MyRealTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.debug.xcconfig"; sourceTree = "<group>"; };
 		AA077AAFA94C243A675223C7 /* Pods-MyRealTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,13 +144,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		301E137D21257D3500782892 /* source */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
 		303F273F20F758D500C27555 = {
 			isa = PBXGroup;
 			children = (
@@ -112,33 +165,174 @@
 		303F274A20F758D500C27555 /* MyRealTrip */ = {
 			isa = PBXGroup;
 			children = (
-				301E137D21257D3500782892 /* source */,
+				30E039A9212D68D200D53BDF /* Supportting Files */,
+				30E039A8212D68BE00D53BDF /* Storyboard */,
+				30E039A7212D68B300D53BDF /* Resources */,
+				30E0399D212D635200D53BDF /* Sources */,
+				303F274B20F758D500C27555 /* AppDelegate.swift */,
+				303F275420F758D500C27555 /* LaunchScreen.storyboard */,
+				303F275720F758D500C27555 /* Info.plist */,
+			);
+			path = MyRealTrip;
+			sourceTree = "<group>";
+		};
+		30E0399D212D635200D53BDF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				30E039A4212D67CF00D53BDF /* ViewController */,
+				30E039A1212D638900D53BDF /* View */,
+				30E039A0212D638300D53BDF /* Service */,
+				30E0399F212D637E00D53BDF /* Model */,
+				30E0399E212D637100D53BDF /* Utility */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		30E0399E212D637100D53BDF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				30E039AB212D694600D53BDF /* Constants.swift */,
+				30E039AA212D694600D53BDF /* urlList.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		30E0399F212D637E00D53BDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30E039AE212D695200D53BDF /* Card.swift */,
+				30E039B0212D695200D53BDF /* CardModel.swift */,
+				30E039B1212D695200D53BDF /* ProductModel.swift */,
+				30E039AF212D695200D53BDF /* TourTicketList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30E039A0212D638300D53BDF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				30E039B7212D695D00D53BDF /* data.json */,
+				30E039B6212D695D00D53BDF /* ImageService.swift */,
+				30E039B8212D695D00D53BDF /* Network.swift */,
+				30E039B9212D695D00D53BDF /* sample.json */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		30E039A1212D638900D53BDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30E039D3212D698D00D53BDF /* TravelDestinationTableViewCell.swift */,
+				30E039D4212D698D00D53BDF /* TravelDestinationTableViewCell.xib */,
+				30E039D5212D698D00D53BDF /* WishlistCollectionViewCell.swift */,
+				30E039D2212D698D00D53BDF /* WishlistCollectionViewCell.xib */,
+				30E039CB212D697B00D53BDF /* ADTableViewCell.swift */,
+				30E039CA212D697B00D53BDF /* ADTableViewCell.xib */,
+				30E039CC212D697B00D53BDF /* FourthTableViewCell.swift */,
+				30E039CD212D697B00D53BDF /* FourthTableViewCell.xib */,
+				30E039A3212D639B00D53BDF /* Product */,
+				30E039A2212D639400D53BDF /* NestedCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30E039A2212D639400D53BDF /* NestedCells */ = {
+			isa = PBXGroup;
+			children = (
+				30E039BE212D696B00D53BDF /* FirstCollectionViewCell.swift */,
+				30E039C1212D696B00D53BDF /* FirstCollectionViewCell.xib */,
+				30E039C0212D696B00D53BDF /* SecondCollectionViewCell.swift */,
+				30E039BF212D696B00D53BDF /* SecondCollectionViewCell.xib */,
+			);
+			path = NestedCells;
+			sourceTree = "<group>";
+		};
+		30E039A3212D639B00D53BDF /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				30E039C7212D697200D53BDF /* CardCollectionViewCell.swift */,
+				30E039C6212D697200D53BDF /* CardCollectionViewCell.xib */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		30E039A4212D67CF00D53BDF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30E039E8212D707000D53BDF /* AirlineTicket */,
+				30E039A6212D67E100D53BDF /* Tour */,
+				30E039A5212D67DC00D53BDF /* Main */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		30E039A5212D67DC00D53BDF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				303F274D20F758D500C27555 /* ViewController.swift */,
+				30E039DA212D69B700D53BDF /* SearchViewController.swift */,
+				30E039DB212D69B700D53BDF /* WishListViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		30E039A6212D67E100D53BDF /* Tour */ = {
+			isa = PBXGroup;
+			children = (
+				30E039E0212D69BF00D53BDF /* exampleViewController.swift */,
+				30E039DE212D69BF00D53BDF /* SearchBarViewController.swift */,
+				30E039E1212D69BF00D53BDF /* TourCollectionViewController.swift */,
+				30E039DF212D69BF00D53BDF /* TourTicketTableViewController.swift */,
+			);
+			path = Tour;
+			sourceTree = "<group>";
+		};
+		30E039A7212D68B300D53BDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				303F275220F758D500C27555 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		30E039A8212D68BE00D53BDF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				303F274F20F758D500C27555 /* Main.storyboard */,
+				30E039E6212D6A8B00D53BDF /* Tour.storyboard */,
+				3091C9542110151200C48CE8 /* AirlineTicketView.storyboard */,
+				304689F2211D874600C5809D /* SetPeoplePopup.storyboard */,
+				301E136F2125683B00782892 /* SetSeatGradePopup.storyboard */,
+				301E138021257DD600782892 /* SetDeparturePopup.storyboard */,
+				30527C0E21269374000F17DF /* SetDestinationPopup.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		30E039A9212D68D200D53BDF /* Supportting Files */ = {
+			isa = PBXGroup;
+			children = (
 				301E137B21256E9200782892 /* RadioCheckboxBaseButton.swift */,
 				301E137321256DC600782892 /* RadioButtonContainer.swift */,
 				301E137521256DEB00782892 /* RadioButtonContainerView.swift */,
 				301E137721256E1C00782892 /* RadioButton.swift */,
 				301E137921256E7B00782892 /* RadioCheckboxBaseContainer.swift */,
-				303F274B20F758D500C27555 /* AppDelegate.swift */,
-				303F274D20F758D500C27555 /* ViewController.swift */,
-				303F274F20F758D500C27555 /* Main.storyboard */,
-				07D6D1C3210EF02500D464D7 /* LodgingView.storyboard */,
-				3091C9542110151200C48CE8 /* AirlineTicketView.storyboard */,
-				3091C95621101C6900C48CE8 /* AirlineTicketViewController.swift */,
-				30E0399B212C010700D53BDF /* AirlineTicketSearchViewController.swift */,
-				304689F2211D874600C5809D /* SetPeoplePopup.storyboard */,
-				304689F5211D89D200C5809D /* SetPeoplePopupViewController.swift */,
-				301E136F2125683B00782892 /* SetSeatGradePopup.storyboard */,
-				301E13712125686B00782892 /* SetSeatGradePopup.swift */,
-				301E138021257DD600782892 /* SetDeparturePopup.storyboard */,
-				301E13822125950200782892 /* SetDeparturePopupViewController.swift */,
-				30527C0E21269374000F17DF /* SetDestinationPopup.storyboard */,
-				30527C0C2126935B000F17DF /* SetDestinationPopupViewController.swift */,
-				303F275220F758D500C27555 /* Assets.xcassets */,
-				303F275420F758D500C27555 /* LaunchScreen.storyboard */,
-				303F275720F758D500C27555 /* Info.plist */,
 				304689F9211D9B4800C5809D /* UIAlertController+Helper.swift */,
 			);
-			path = MyRealTrip;
+			path = "Supportting Files";
+			sourceTree = "<group>";
+		};
+		30E039E8212D707000D53BDF /* AirlineTicket */ = {
+			isa = PBXGroup;
+			children = (
+				3091C95621101C6900C48CE8 /* AirlineTicketViewController.swift */,
+				30E0399B212C010700D53BDF /* AirlineTicketSearchViewController.swift */,
+				304689F5211D89D200C5809D /* SetPeoplePopupViewController.swift */,
+				301E13712125686B00782892 /* SetSeatGradePopup.swift */,
+				301E13822125950200782892 /* SetDeparturePopupViewController.swift */,
+				30527C0C2126935B000F17DF /* SetDestinationPopupViewController.swift */,
+			);
+			path = AirlineTicket;
 			sourceTree = "<group>";
 		};
 		44645A13A0ABFD2AFAF62E3B /* Pods */ = {
@@ -210,14 +404,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07D6D1C4210EF02500D464D7 /* LodgingView.storyboard in Resources */,
 				304689F3211D874600C5809D /* SetPeoplePopup.storyboard in Resources */,
 				303F275620F758D500C27555 /* LaunchScreen.storyboard in Resources */,
+				30E039D1212D697B00D53BDF /* FourthTableViewCell.xib in Resources */,
+				30E039BD212D695D00D53BDF /* sample.json in Resources */,
+				30E039BB212D695D00D53BDF /* data.json in Resources */,
+				30E039C5212D696B00D53BDF /* FirstCollectionViewCell.xib in Resources */,
+				30E039D6212D698D00D53BDF /* WishlistCollectionViewCell.xib in Resources */,
 				301E13702125683B00782892 /* SetSeatGradePopup.storyboard in Resources */,
 				303F275320F758D500C27555 /* Assets.xcassets in Resources */,
 				3091C9552110151200C48CE8 /* AirlineTicketView.storyboard in Resources */,
+				30E039E7212D6A8B00D53BDF /* Tour.storyboard in Resources */,
+				30E039CE212D697B00D53BDF /* ADTableViewCell.xib in Resources */,
+				30E039C3212D696B00D53BDF /* SecondCollectionViewCell.xib in Resources */,
 				301E138121257DD600782892 /* SetDeparturePopup.storyboard in Resources */,
 				303F275120F758D500C27555 /* Main.storyboard in Resources */,
+				30E039C8212D697200D53BDF /* CardCollectionViewCell.xib in Resources */,
+				30E039D8212D698D00D53BDF /* TravelDestinationTableViewCell.xib in Resources */,
 				30527C0F21269374000F17DF /* SetDestinationPopup.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +456,9 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CalendarDateRangePickerViewController/CalendarDateRangePickerViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/KWStepper/KWStepper.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MBRadioCheckboxButton/MBRadioCheckboxButton.framework",
+				"${BUILT_PRODUCTS_DIR}/ParallaxHeader/ParallaxHeader.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -261,7 +466,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalendarDateRangePickerViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KWStepper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBRadioCheckboxButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParallaxHeader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,20 +483,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E039DC212D69B700D53BDF /* SearchViewController.swift in Sources */,
+				30E039DD212D69B700D53BDF /* WishListViewController.swift in Sources */,
+				30E039E2212D69BF00D53BDF /* SearchBarViewController.swift in Sources */,
 				301E137821256E1C00782892 /* RadioButton.swift in Sources */,
 				303F274E20F758D500C27555 /* ViewController.swift in Sources */,
+				30E039E4212D69BF00D53BDF /* exampleViewController.swift in Sources */,
+				30E039AC212D694600D53BDF /* urlList.swift in Sources */,
 				304689F6211D89D200C5809D /* SetPeoplePopupViewController.swift in Sources */,
 				301E137621256DEB00782892 /* RadioButtonContainerView.swift in Sources */,
+				30E039B4212D695200D53BDF /* CardModel.swift in Sources */,
 				303F274C20F758D500C27555 /* AppDelegate.swift in Sources */,
+				30E039C2212D696B00D53BDF /* FirstCollectionViewCell.swift in Sources */,
+				30E039B2212D695200D53BDF /* Card.swift in Sources */,
 				301E137421256DC600782892 /* RadioButtonContainer.swift in Sources */,
+				30E039D9212D698D00D53BDF /* WishlistCollectionViewCell.swift in Sources */,
+				30E039D7212D698D00D53BDF /* TravelDestinationTableViewCell.swift in Sources */,
+				30E039E5212D69BF00D53BDF /* TourCollectionViewController.swift in Sources */,
+				30E039AD212D694600D53BDF /* Constants.swift in Sources */,
 				3091C95721101C6900C48CE8 /* AirlineTicketViewController.swift in Sources */,
 				301E13832125950200782892 /* SetDeparturePopupViewController.swift in Sources */,
+				30E039C9212D697200D53BDF /* CardCollectionViewCell.swift in Sources */,
 				30527C0D2126935B000F17DF /* SetDestinationPopupViewController.swift in Sources */,
 				30E0399C212C010700D53BDF /* AirlineTicketSearchViewController.swift in Sources */,
+				30E039CF212D697B00D53BDF /* ADTableViewCell.swift in Sources */,
 				301E13722125686B00782892 /* SetSeatGradePopup.swift in Sources */,
 				301E137A21256E7B00782892 /* RadioCheckboxBaseContainer.swift in Sources */,
+				30E039BC212D695D00D53BDF /* Network.swift in Sources */,
+				30E039D0212D697B00D53BDF /* FourthTableViewCell.swift in Sources */,
 				301E137C21256E9200782892 /* RadioCheckboxBaseButton.swift in Sources */,
+				30E039E3212D69BF00D53BDF /* TourTicketTableViewController.swift in Sources */,
 				304689FA211D9B4800C5809D /* UIAlertController+Helper.swift in Sources */,
+				30E039C4212D696B00D53BDF /* SecondCollectionViewCell.swift in Sources */,
+				30E039B3212D695200D53BDF /* TourTicketList.swift in Sources */,
+				30E039B5212D695200D53BDF /* ProductModel.swift in Sources */,
+				30E039BA212D695D00D53BDF /* ImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

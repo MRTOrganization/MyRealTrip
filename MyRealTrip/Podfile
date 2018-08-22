@@ -9,7 +9,8 @@ target 'MyRealTrip' do
   pod 'MBRadioCheckboxButton'
   pod 'Alamofire', '~> 4.7'
   pod 'SwiftyJSON', '~> 4.1'
-
+  pod 'Kingfisher', '~> 4.8'
+  pod 'ParallaxHeader', '~> 2.0'
   # Pods for MyRealTrip
 
 end

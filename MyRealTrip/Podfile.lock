@@ -1,32 +1,40 @@
 PODS:
   - Alamofire (4.7.3)
   - CalendarDateRangePickerViewController (0.1.0)
+  - Kingfisher (4.8.1)
   - KWStepper (2.4.0)
   - MBRadioCheckboxButton (1.3)
+  - ParallaxHeader (2.0.0)
   - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
   - CalendarDateRangePickerViewController (~> 0.1)
+  - Kingfisher (~> 4.8)
   - KWStepper (~> 2.4)
   - MBRadioCheckboxButton
+  - ParallaxHeader (~> 2.0)
   - SwiftyJSON (~> 4.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - CalendarDateRangePickerViewController
+    - Kingfisher
     - KWStepper
     - MBRadioCheckboxButton
+    - ParallaxHeader
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   CalendarDateRangePickerViewController: 9e82a36a21ad7338f4e21a314469bfabe1f738fb
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
   KWStepper: e4347229115c856ae193afd92f84807a62dfb8a9
   MBRadioCheckboxButton: 864c86ddc38527075158e9a22887a0ad0eb9edff
+  ParallaxHeader: fb6ee97915626454f3c029a97b424f79a777c642
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: d5070521fa9c981d1cd022ae619eb2b833c95b8a
+PODFILE CHECKSUM: c6bf85d9e057409adf9c3f188ea0df7eee923058
 
 COCOAPODS: 1.5.3
