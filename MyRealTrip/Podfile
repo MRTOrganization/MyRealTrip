@@ -6,8 +6,9 @@ target 'MyRealTrip' do
   use_frameworks!
 
 pod 'Alamofire', '~> 4.7'
-pod 'CalendarDateRangePickerViewController', '~> 0.1'
 pod 'ParallaxHeader', '~> 2.0.0'
+pod 'Kingfisher', '~> 4.8'
+pod 'CalendarDateRangePickerViewController'
 
   # Pods for MyRealTrip
 

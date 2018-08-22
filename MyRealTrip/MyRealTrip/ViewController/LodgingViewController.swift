@@ -10,7 +10,15 @@ import UIKit
 import Alamofire
 import ParallaxHeader
 import SafariServices
+import CalendarDateRangePickerViewController
 
+class SingletonUrlData {
+    static let data = SingletonUrlData()
+    var url: String = ""
+    private init() {
+        
+    }
+}
 struct Hotel {
     var locationName: String = "여행지 또는 숙소명"
     struct calender {
@@ -74,9 +82,9 @@ class LodgingViewController: UIViewController {
         
         //Hotel Park Button Set up
         hotelButton.setTitle("호텔", for: .normal)
-        hotelButton.setTitleColor(UIColor.black, for: .normal)
+        hotelButton.setTitleColor(UIColor.white, for: .normal)
         parkButton.setTitle("한인민박", for: .normal)
-        parkButton.setTitleColor(UIColor.black, for: .normal)
+        parkButton.setTitleColor(UIColor.white, for: .normal)
         
         //HotelButtonView
         
@@ -157,16 +165,13 @@ class LodgingViewController: UIViewController {
     @objc func deliveryPersonData(noti: Notification) {
         guard let notiUserInfo = noti.userInfo else { return }
         print(notiUserInfo)
+        
         guard let notiUserInfoAdult = notiUserInfo["adult"] else { return }
         guard let notiUserInfoKid = notiUserInfo["kid"] else { return }
         guard let notiUserInfoRoom = notiUserInfo["room"] else { return }
-//        guard let notiUserInfoAdultValue = notiUserInfoAdult as? Int else { return }
-//        guard let notiUserInfoKidValue = notiUserInfoKid as? Int else { return }
-//        guard let notiUserInfoRoomValue = notiUserInfoRoom as? Int else { return }
-//        print(notiUserInfoAdultValue)
         
         hotelPersonLabel.text = "성인\(notiUserInfoAdult), 어린이\(notiUserInfoKid) / 객실\(notiUserInfoRoom)"
-
+        
     }
     
     
@@ -200,6 +205,12 @@ class LodgingViewController: UIViewController {
     
     @IBAction func didTapHotelCalenderButton(_ sender: UIButton) {
         print("did Tap Hotel Calender Button")
+        
+        let dateRangePickerViewController = CalendarDateRangePickerViewController(collectionViewLayout: UICollectionViewFlowLayout())
+        dateRangePickerViewController.delegate = self
+        let navigationController = UINavigationController(rootViewController: dateRangePickerViewController)
+        self.navigationController?.present(navigationController, animated: true, completion: nil)
+
     }
     
     @IBAction func didTapHotelPersonButton(_ sender: UIButton) {
@@ -208,34 +219,111 @@ class LodgingViewController: UIViewController {
     
     @IBAction func didTapFirstButton(_ sender: UIButton) {
         print("did Tap First Button")
+        
+        let singletonData: SingletonUrlData = SingletonUrlData.data
+        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Japan/Osaka/"
+        
         let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
         let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkSelectViewController")
+        
         present(viewController, animated: true, completion: nil)        
     }
     
     @IBAction func didTapSecondButton(_ sender: UIButton) {
+        print("did Tap Second Button")
+        
+        let singletonData: SingletonUrlData = SingletonUrlData.data
+        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Japan/Osaka/"
+        
+        let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
+        let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkSelectViewController")
+        
+        present(viewController, animated: true, completion: nil)
     }
     
     @IBAction func didTapThirdButton(_ sender: UIButton) {
+        print("did Tap Third Button")
+        
+        let singletonData: SingletonUrlData = SingletonUrlData.data
+        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Japan/Osaka/"
+        
+        let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
+        let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkSelectViewController")
+        
+        present(viewController, animated: true, completion: nil)
     }
     
     @IBAction func didTapFourthButton(_ sender: UIButton) {
+        print("did Tap Fourth Button")
+        
+        let singletonData: SingletonUrlData = SingletonUrlData.data
+        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Japan/Osaka/"
+        
+        let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
+        let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkSelectViewController")
+        
+        present(viewController, animated: true, completion: nil)
     }
     
     @IBAction func didTapFifthButton(_ sender: UIButton) {
+        print("did Tap Fifth Button")
+        
+        let singletonData: SingletonUrlData = SingletonUrlData.data
+        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Japan/Osaka/"
+        
+        let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
+        let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkSelectViewController")
+        
+        present(viewController, animated: true, completion: nil)
     }
     
     @IBAction func didTapSixthButton(_ sender: UIButton) {
+        print("did Tap Sixth Button")
+        
+        let singletonData: SingletonUrlData = SingletonUrlData.data
+        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Japan/Osaka/"
+        
+        let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
+        let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkSelectViewController")
+        
+        present(viewController, animated: true, completion: nil)
     }
     
     @IBAction func didTapSeventhButton(_ sender: UIButton) {
+        print("did Tap Seventh Button")
+        
+        let singletonData: SingletonUrlData = SingletonUrlData.data
+        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Japan/Osaka/"
+        
+        let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
+        let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkSelectViewController")
+        
+        present(viewController, animated: true, completion: nil)
     }
     
     
     @IBAction func didTapEighthButton(_ sender: UIButton) {
+        print("did Tap Eighth Button")
+        
+        let singletonData: SingletonUrlData = SingletonUrlData.data
+        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Japan/Osaka/"
+        
+        let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
+        let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkSelectViewController")
+        
+        present(viewController, animated: true, completion: nil)
     }
     
     @IBAction func didTapNinthButton(_ sender: UIButton) {
+        print("did Tap Ninth Button")
+        
+        let singletonData: SingletonUrlData = SingletonUrlData.data
+        singletonData.url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/khotels/Japan/Osaka/"
+        
+        let storyBoard = UIStoryboard(name: "LodgingView", bundle: nil)
+        let viewController = storyBoard.instantiateViewController(withIdentifier: "ParkSelectViewController")
+        
+        present(viewController, animated: true, completion: nil)
     }
     
     
@@ -275,4 +363,22 @@ class LodgingViewController: UIViewController {
     }
     
     
+}
+
+extension LodgingViewController: CalendarDateRangePickerViewControllerDelegate {
+    func didTapCancel() {
+        dismiss(animated: true)
+    }
+    
+    func didTapDoneWithDateRange(startDate: Date!, endDate: Date!) {
+        dismiss(animated: true)
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
+        hotelCalenderLabel.text = dateFormatter.string(from: startDate) + " - " + dateFormatter.string(from: endDate)
+    }
+
+    func didPickDateRange(startDate: Date!, endDate: Date!) {
+       
+        
+    }
 }

@@ -107,7 +107,11 @@ class PersonSelectViewController: UIViewController {
     @IBAction func didTapSelectButton(_ sender: UIButton) {
         print("did Tap Select Button")
         
-        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "personData"), object: nil, userInfo: ["adult": adultNumber.text, "kid": kidNumber.text, "room": roomNumber.text])
+        guard let adultNumber = adultNumber.text else { return }
+        guard let kidNumber = kidNumber.text else { return }
+        guard let roomNumber = roomNumber.text else { return }
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "personData"), object: nil, userInfo: ["adult": adultNumber, "kid": kidNumber, "room": roomNumber])
         
         dismiss(animated: true) {
             print("Dismiss")
