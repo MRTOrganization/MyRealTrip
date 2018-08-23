@@ -8,9 +8,10 @@
 
 import UIKit
 import Alamofire
+import CalendarDateRangePickerViewController
+import Kingfisher
 import ParallaxHeader
 import SafariServices
-import CalendarDateRangePickerViewController
 
 class SingletonUrlData {
     static let data = SingletonUrlData()
@@ -46,8 +47,10 @@ struct ParkLocation {
 class LodgingViewController: UIViewController {
     
     
+    @IBOutlet weak var mainImage: UIImageView!
     @IBOutlet weak var hotelButton: UIButton!
     @IBOutlet weak var parkButton: UIButton!
+    @IBOutlet weak var buttonUnderBar: UIView!
     @IBOutlet weak var viewContainer: UIView!
     @IBOutlet weak var hotelButtonView: UIView!
     @IBOutlet weak var hotelLocationButtonView: UIView!
@@ -60,6 +63,7 @@ class LodgingViewController: UIViewController {
     @IBOutlet weak var hotelPersonLabel: UILabel!
     @IBOutlet weak var hotelPersonButton: UIButton!
     @IBOutlet weak var searchButton: UIButton!
+    @IBOutlet weak var BannerButton: UIButton!
     @IBOutlet weak var parkButtonView: UIView!
     @IBOutlet weak var firstButton: UIButton!
     @IBOutlet weak var secondButton: UIButton!
@@ -70,27 +74,88 @@ class LodgingViewController: UIViewController {
     @IBOutlet weak var seventhButton: UIButton!
     @IBOutlet weak var eighthButton: UIButton!
     @IBOutlet weak var ninthButton: UIButton!
+    
+    @IBOutlet weak var hotelPopularView: UIView!
+    @IBOutlet weak var hotelPopularFisrtButton: UIButton!
+    @IBOutlet weak var hotelPopularSecondButton: UIButton!
+    @IBOutlet weak var hotelPopularCollectionView: UICollectionView!
+    @IBOutlet weak var hotelPopularThirdButton: UIButton!
+    @IBOutlet weak var hotelPopularFourthButton: UIButton!
+    @IBOutlet weak var hotelPopularFifthButton: UIButton!
+    @IBOutlet weak var hotelPopularSixthButton: UIButton!
+    
     var searchButtonValue: Int = 0
+    
+    // Codable
+    
+    struct HotelPopular: Codable {
+        var pk: Int
+        var city: Int
+        var country: Int
+        var thumbnail: String
+        var hotelName: String
+        var grade: String
+        var comments: String
+        var price: String
+        
+        enum CodingKeys: String, CodingKey {
+            case pk
+            case city
+            case country
+            case thumbnail
+            case hotelName = "hotel_name"
+            case grade
+            case comments
+            case price
+        }
+        
+    }
+    
+    let decoder = JSONDecoder()
+    var hotelPopularArr: [HotelPopular] = []
+    var country = "Japan"
+    var city = "Osaka"
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Main Image Set up
+        mainImage.image = #imageLiteral(resourceName: "Hotel")
         
         //View Container Set up
         self.viewContainer.bringSubview(toFront: hotelButtonView)
         viewContainer.layer.cornerRadius = 5
         viewContainer.layer.masksToBounds = true
+//        viewContainer.layer.shadowColor = UIColor.gray.cgColor
+//        viewContainer.layer.shadowOpacity = 5
+//        viewContainer.layer.shadowOffset = CGSize.zero
+//        viewContainer.layer.shadowRadius = 10
+//        viewContainer.layer.shadowPath = UIBezierPath(rect: viewContainer.bounds).cgPath
+//        viewContainer.layer.shouldRasterize = true
+        viewContainer.layer.borderWidth = 0.5
+        viewContainer.layer.backgroundColor = UIColor.lightGray.cgColor
         
         //Hotel Park Button Set up
         hotelButton.setTitle("호텔", for: .normal)
         hotelButton.setTitleColor(UIColor.white, for: .normal)
+        hotelButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         parkButton.setTitle("한인민박", for: .normal)
         parkButton.setTitleColor(UIColor.white, for: .normal)
+        parkButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         
         //HotelButtonView
         
         hotelLocationButton.setTitle("", for: .normal)
         hotelCalenderButton.setTitle("", for: .normal)
         hotelPersonButton.setTitle("", for: .normal)
+        
+        // Button Under Bar Set up
+        
+        buttonUnderBar.frame = CGRect(x: 78, y: 117, width: 110, height: 5)
+        buttonUnderBar.backgroundColor = UIColor.white
+        buttonUnderBar.layer.cornerRadius = 3
+        buttonUnderBar.layer.masksToBounds = true
         
         //Date
         let date = Date()
@@ -140,6 +205,38 @@ class LodgingViewController: UIViewController {
         searchButton.layer.cornerRadius = 5
         searchButton.layer.masksToBounds = true
         
+        // Popular Hotel Button Set up
+        
+        hotelPopularFisrtButton.setTitle("오사카", for: .normal)
+        hotelPopularFisrtButton.setTitleColor(UIColor.black, for: .normal)
+        hotelPopularFisrtButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)
+        hotelPopularSecondButton.setTitle("도쿄", for: .normal)
+        hotelPopularSecondButton.setTitleColor(UIColor.black, for: .normal)
+        hotelPopularSecondButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)
+        hotelPopularThirdButton.setTitle("라스베가스", for: .normal)
+        hotelPopularThirdButton.setTitleColor(UIColor.black, for: .normal)
+        hotelPopularThirdButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)
+        hotelPopularFourthButton.setTitle("삿포로", for: .normal)
+        hotelPopularFourthButton.setTitleColor(UIColor.black, for: .normal)
+        hotelPopularFourthButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)
+        hotelPopularFifthButton.setTitle("로마", for: .normal)
+        hotelPopularFifthButton.setTitleColor(UIColor.black, for: .normal)
+        hotelPopularFifthButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)
+        hotelPopularSixthButton.setTitle("피렌체", for: .normal)
+        hotelPopularSixthButton.setTitleColor(UIColor.black, for: .normal)
+        hotelPopularSixthButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)
+
+        // Collection View Xib
+        self.hotelPopularCollectionView.register(UINib(nibName: "HotelPopularCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "HotelPopularCell")
+        
+        // Collection View Delegate, Datasource
+        hotelPopularCollectionView.delegate = self
+        hotelPopularCollectionView.dataSource = self
+        
+        // Alamofire
+        alamofire(country: country, city: city)
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -185,7 +282,14 @@ class LodgingViewController: UIViewController {
         searchButton.setTitleColor(UIColor.white, for: .normal)
         searchButton.layer.cornerRadius = 5
         searchButton.layer.masksToBounds = true
+        mainImage.image = #imageLiteral(resourceName: "Hotel")
+        
+        UIView.animate(withDuration: 0.3, delay: 0.0, options: .curveEaseIn, animations: {
+            self.buttonUnderBar.frame = CGRect(x: 78, y: 117, width: self.buttonUnderBar.frame.width, height: self.buttonUnderBar.frame.height)
+        }, completion: nil)
+        
     }
+    
     
     @IBAction func didTapParkButton(_ sender: UIButton) {
         print("did Tap Park Button")
@@ -197,6 +301,11 @@ class LodgingViewController: UIViewController {
         searchButton.setTitleColor(UIColor.white, for: .normal)
         searchButton.layer.cornerRadius = 5
         searchButton.layer.masksToBounds = true
+        mainImage.image = #imageLiteral(resourceName: "Park")
+        
+        UIView.animate(withDuration: 0.3, delay: 0.0, options: .curveEaseIn, animations: {
+            self.buttonUnderBar.frame = CGRect(x: 188, y: 117, width: self.buttonUnderBar.frame.width, height: self.buttonUnderBar.frame.height)
+        }, completion: nil)
     }
     
     @IBAction func didTapHotelLocationButton(_ sender: UIButton) {
@@ -210,7 +319,7 @@ class LodgingViewController: UIViewController {
         dateRangePickerViewController.delegate = self
         let navigationController = UINavigationController(rootViewController: dateRangePickerViewController)
         self.navigationController?.present(navigationController, animated: true, completion: nil)
-
+        
     }
     
     @IBAction func didTapHotelPersonButton(_ sender: UIButton) {
@@ -327,10 +436,45 @@ class LodgingViewController: UIViewController {
     }
     
     
+    @IBAction func didTapBannerButton(_ sender: UIButton) {
+        
+        guard let url = URL(string: "https://join.booking.com/?aid=376440&lang=ko&utm_source=index_banner&utm_medium=frontend&utm_content=small&contact_details=&label=bdot-HhWTaX_r6btPip7sfrk7SQS267777897793:pl:ta:p1:p2:ac:ap1t1:neg:fi:tiaud-297601666475:kwd-324456682700:lp1009871:li:dec:dm") else { return }
+        let safariViewController = SFSafariViewController(url: url)
+        present(safariViewController, animated: true, completion: nil)
+        
+    }
     
     
+    @IBAction func didTapHotelPopularFirstButton(_ sender: UIButton) {
+        print("did Tap Hotel Popular First Button")
+        alamofire(country: "Japan", city: "Osaka")
+    }
+    
+    @IBAction func didTapHotelPopularSecondButton(_ sender: UIButton) {
+        print("did Tap Hotel Popular Second Button")
+        alamofire(country: "Japan", city: "Tokyo")
+    }
+    
+    @IBAction func didTapHotelPopularThirdButton(_ sender: UIButton) {
+        print("did Tap Hotel Popular Third Button")
+        alamofire(country: "United+States+of+America", city: "Las+Vegas")
+    }
+    
+    @IBAction func didTapHotelPopularFourthButton(_ sender: UIButton) {
+        print("did Tap Hotel Popular Fourth Button")
+        alamofire(country: "Japan", city: "Sapporo")
+    }
     
     
+    @IBAction func didTapHotelPopularFifthButton(_ sender: UIButton) {
+        print("did Tap Hotel Popular Fifth Button")
+        alamofire(country: "Italy", city: "Roma")
+    }
+    
+    @IBAction func didTapHotelPopularSixthButton(_ sender: UIButton) {
+        print("did Tap Hotel Popular Sixth Button")
+        alamofire(country: "Italy", city: "Firenze")
+    }
     
     
     
@@ -351,17 +495,32 @@ class LodgingViewController: UIViewController {
         } else { return }
     }
     
-    
-    
-    
-    
-    
-    
     deinit {
         print("Deinit")
         NotificationCenter.default.removeObserver(self)
     }
     
+    @objc func alamofire(country: String, city: String) {
+        
+        let url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/accommodations/\(country)/\(city)/"
+        Alamofire.request(url, method: .get).validate().responseData { (response) in
+            switch response.result {
+                
+            case .success(let value):
+                do {
+                    let decode = try self.decoder.decode([HotelPopular].self, from: value)
+                    print(decode)
+                    self.hotelPopularArr = decode
+                    print(self.hotelPopularArr.count)
+                    self.hotelPopularCollectionView.reloadData()
+                } catch {
+                    print("Error")
+                }
+            case .failure(let error):
+                print(error)
+            }
+        }
+    }
     
 }
 
@@ -376,9 +535,30 @@ extension LodgingViewController: CalendarDateRangePickerViewControllerDelegate {
         dateFormatter.dateFormat = "EEE, M, d, yyyy"
         hotelCalenderLabel.text = dateFormatter.string(from: startDate) + " - " + dateFormatter.string(from: endDate)
     }
-
+    
     func didPickDateRange(startDate: Date!, endDate: Date!) {
-       
+        
         
     }
+}
+
+extension LodgingViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return hotelPopularArr.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell: HotelPopularCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "HotelPopularCell", for: indexPath) as! HotelPopularCollectionViewCell
+        
+        let url = URL(string: hotelPopularArr[indexPath.row].thumbnail)
+        cell.hotelPopularImage.kf.setImage(with: url)
+        cell.hotelPopularName.text = hotelPopularArr[indexPath.row].hotelName
+        cell.hotelPopularPrice.text = hotelPopularArr[indexPath.row].price
+        cell.hotelPopularGrade.text = hotelPopularArr[indexPath.row].grade
+        
+        return cell
+    }
+    
+    
 }

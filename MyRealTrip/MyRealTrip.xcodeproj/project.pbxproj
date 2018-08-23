@@ -12,6 +12,8 @@
 		0768685B212C88FA00AAD993 /* ParkSelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07686859212C88FA00AAD993 /* ParkSelectTableViewCell.swift */; };
 		0768685C212C88FA00AAD993 /* ParkSelectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0768685A212C88FA00AAD993 /* ParkSelectTableViewCell.xib */; };
 		0768685E212C904800AAD993 /* ParkSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0768685D212C904800AAD993 /* ParkSelectViewController.swift */; };
+		078A904A212E57E4001182B8 /* HotelPopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A9048212E57E4001182B8 /* HotelPopularCollectionViewCell.swift */; };
+		078A904B212E57E4001182B8 /* HotelPopularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078A9049212E57E4001182B8 /* HotelPopularCollectionViewCell.xib */; };
 		0797E4E2212C68E100F2E853 /* PersonSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797E4E1212C68E100F2E853 /* PersonSelectViewController.swift */; };
 		0797E4E5212C6F2F00F2E853 /* LocationSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797E4E4212C6F2F00F2E853 /* LocationSelectViewController.swift */; };
 		0797E4EA212C6FAE00F2E853 /* LocationSelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0797E4E8212C6FAE00F2E853 /* LocationSelectTableViewCell.swift */; };
@@ -31,6 +33,8 @@
 		07686859212C88FA00AAD993 /* ParkSelectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkSelectTableViewCell.swift; sourceTree = "<group>"; };
 		0768685A212C88FA00AAD993 /* ParkSelectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParkSelectTableViewCell.xib; sourceTree = "<group>"; };
 		0768685D212C904800AAD993 /* ParkSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkSelectViewController.swift; sourceTree = "<group>"; };
+		078A9048212E57E4001182B8 /* HotelPopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelPopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		078A9049212E57E4001182B8 /* HotelPopularCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelPopularCollectionViewCell.xib; sourceTree = "<group>"; };
 		0797E4E1212C68E100F2E853 /* PersonSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSelectViewController.swift; sourceTree = "<group>"; };
 		0797E4E4212C6F2F00F2E853 /* LocationSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectViewController.swift; sourceTree = "<group>"; };
 		0797E4E8212C6FAE00F2E853 /* LocationSelectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectTableViewCell.swift; sourceTree = "<group>"; };
@@ -69,6 +73,13 @@
 			path = ParkSelectXib;
 			sourceTree = "<group>";
 		};
+		078A904C212E5863001182B8 /* HotelPopularXib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HotelPopularXib;
+			sourceTree = "<group>";
+		};
 		0797E4E3212C6F0A00F2E853 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +95,9 @@
 		0797E4E6212C6F7B00F2E853 /* xib */ = {
 			isa = PBXGroup;
 			children = (
+				078A9048212E57E4001182B8 /* HotelPopularCollectionViewCell.swift */,
+				078A9049212E57E4001182B8 /* HotelPopularCollectionViewCell.xib */,
+				078A904C212E5863001182B8 /* HotelPopularXib */,
 				07686856212C87D500AAD993 /* ParkSelectXib */,
 				0797E4E7212C6F8900F2E853 /* LocationSelectXib */,
 			);
@@ -216,6 +230,7 @@
 				0797E4EB212C6FAE00F2E853 /* LocationSelectTableViewCell.xib in Resources */,
 				303F275120F758D500C27555 /* Main.storyboard in Resources */,
 				0768685C212C88FA00AAD993 /* ParkSelectTableViewCell.xib in Resources */,
+				078A904B212E57E4001182B8 /* HotelPopularCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +293,7 @@
 				0797E4EA212C6FAE00F2E853 /* LocationSelectTableViewCell.swift in Sources */,
 				0797E4E2212C68E100F2E853 /* PersonSelectViewController.swift in Sources */,
 				0720542E212C412500B87C06 /* LodgingViewController.swift in Sources */,
+				078A904A212E57E4001182B8 /* HotelPopularCollectionViewCell.swift in Sources */,
 				0768685E212C904800AAD993 /* ParkSelectViewController.swift in Sources */,
 				0797E4E5212C6F2F00F2E853 /* LocationSelectViewController.swift in Sources */,
 			);
