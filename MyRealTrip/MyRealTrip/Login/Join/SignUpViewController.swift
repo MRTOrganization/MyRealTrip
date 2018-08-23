@@ -36,8 +36,49 @@ class SignUpViewController: UIViewController {
             "password": signUpPassWordTextField.text!
             //            "password": signUpPassWordTextField
         ]
+        guard let signUpNameTextFieldText = signUpNameTextField.text else { return }
+        guard let signUpEmailTextFieldText = signUpEmailTextField.text else { return }
+        guard let signUpPassWordTextFieldText = signUpPassWordTextField.text else { return }
+        guard let signUpRePassWordTextFieldText = signUpRePassWordTextField.text else { return }
         
-        if signUpPassWordTextField.text! == signUpRePassWordTextField.text! {
+        guard signUpNameTextFieldText != "" else {
+            let alert = UIAlertController(title: "오류", message: "이름을 입력해주세요.", preferredStyle: .alert)
+            let alertAction = UIAlertAction(title: "확인", style: .destructive)
+            
+            alert.addAction(alertAction)
+            present(alert, animated: false, completion: nil)
+            
+            return }
+        
+        guard signUpEmailTextFieldText != "" else {
+            let alert = UIAlertController(title: "오류", message: "이메일을 입력해주세요.", preferredStyle: .alert)
+            let alertAction = UIAlertAction(title: "확인", style: .destructive)
+            
+            alert.addAction(alertAction)
+            present(alert, animated: false, completion: nil)
+            
+            return }
+        
+        guard signUpPassWordTextFieldText != "" else {
+            let alert = UIAlertController(title: "오류", message: "비밀번호를 입력해주세요.", preferredStyle: .alert)
+            let alertAction = UIAlertAction(title: "확인", style: .destructive)
+            
+            alert.addAction(alertAction)
+            present(alert, animated: false, completion: nil)
+            
+            return }
+        
+        guard signUpRePassWordTextFieldText != "" else {
+            let alert = UIAlertController(title: "오류", message: "비밀번호 확인을 입력해주세요.", preferredStyle: .alert)
+            let alertAction = UIAlertAction(title: "확인", style: .destructive)
+            
+            alert.addAction(alertAction)
+            present(alert, animated: false, completion: nil)
+            
+            return }
+        
+        
+        if signUpPassWordTextFieldText == signUpRePassWordTextFieldText {
             let url = "http://myrealtrip-project.ap-northeast-2.elasticbeanstalk.com/api/members/"
             
             Alamofire.request(url, method: .post, parameters: parameter).response { (response) in

@@ -80,6 +80,13 @@
 			path = emailLogin;
 			sourceTree = "<group>";
 		};
+		07BDBFCE212EFB3F00D2582E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		303F273F20F758D500C27555 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +108,7 @@
 		303F274A20F758D500C27555 /* MyRealTrip */ = {
 			isa = PBXGroup;
 			children = (
+				07BDBFCE212EFB3F00D2582E /* Model */,
 				303F274B20F758D500C27555 /* AppDelegate.swift */,
 				303F274D20F758D500C27555 /* ViewController.swift */,
 				0700F74A21218591004ADF1D /* Login */,
